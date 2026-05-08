@@ -1,60 +1,124 @@
-<h1 align="center">PrayerTimes</h1>
+<p align="center">
+    <img src="art/en/logo.png" alt="PrayerTimes Pro — Prayer Times for Mac" height="120">
+</p>
 
-<a href="#"><img width="256" height="256" src="art/en/logo.png" align="left" /></a>
+<h1 align="center">PrayerTimes Pro</h1>
 
-<br />
+<p align="center">
+    <strong>A minimalist, privacy-first Islamic prayer times app for your Mac's menu bar.</strong><br>
+    Fully offline · 18+ calculation methods · 5 languages · Apple Silicon & Intel
+</p>
 
-### A minimalist, privacy-first prayer times app for macOS.
+<p align="center">
+    <a href="https://apps.apple.com/eg/app/prayer-times-pro-menubar/id6763390896?mt=12">
+        <img src="https://developer.apple.com/assets/elements/badges/download-on-the-mac-app-store.svg" alt="Download on the Mac App Store" height="56">
+    </a>
+</p>
 
-PrayerTimes lives in your menu bar and tells you when it's time to pray — quietly, accurately, and without ever phoning home. No tracking, no accounts, no data collection. Just prayer times.
+<p align="center">
+    <a href="https://github.com/App-Builders-Gang/PrayerTimes/releases/latest"><img src="https://img.shields.io/github/v/release/App-Builders-Gang/PrayerTimes?color=%2300834a&label=latest" alt="Latest release"></a>
+    <a href="https://github.com/App-Builders-Gang/PrayerTimes/releases/latest"><img src="https://img.shields.io/github/downloads/App-Builders-Gang/PrayerTimes/latest/total?color=%2300834a&label=downloads%20%28latest%29" alt="Latest downloads"></a>
+    <a href="https://github.com/App-Builders-Gang/PrayerTimes/releases"><img src="https://img.shields.io/github/downloads/App-Builders-Gang/PrayerTimes/total?color=%2300834a&label=downloads%20%28total%29" alt="Total downloads"></a>
+    <a href="https://github.com/App-Builders-Gang/PrayerTimes/issues"><img src="https://img.shields.io/github/issues/App-Builders-Gang/PrayerTimes?color=%2300834a" alt="Open issues"></a>
+    <a href="https://github.com/App-Builders-Gang/PrayerTimes/stargazers"><img src="https://img.shields.io/github/stars/App-Builders-Gang/PrayerTimes?color=%2300834a&style=flat" alt="Stars"></a>
+</p>
 
-<div>
-    <a href="https://github.com/App-Builders-Gang/PrayerTimes/releases/latest"><img src="https://img.shields.io/github/v/release/App-Builders-Gang/PrayerTimes?color=%2300834a" /></a>
-    <a href="https://github.com/App-Builders-Gang/PrayerTimes/releases/latest"><img src="https://img.shields.io/github/downloads/App-Builders-Gang/PrayerTimes/latest/total?color=%2300834a&label=latest" /></a>
-    <a href="https://github.com/App-Builders-Gang/PrayerTimes/releases"><img src="https://img.shields.io/github/downloads/App-Builders-Gang/PrayerTimes/total?color=%2300834a" /></a>
-</div>
+<p align="center">
+    <img src="https://img.shields.io/badge/platform-macOS%2013%2B-informational.svg" alt="macOS 13+">
+    <img src="https://img.shields.io/badge/arch-Apple%20Silicon%20%7C%20Intel-lightgrey.svg" alt="Apple Silicon & Intel">
+    <img src="https://img.shields.io/badge/notarized-✓-success.svg" alt="Apple Notarized">
+    <img src="https://img.shields.io/badge/sandboxed-✓-success.svg" alt="Sandboxed">
+    <img src="https://img.shields.io/badge/license-EULA-blue.svg" alt="EULA">
+</p>
 
-<br /><br /><br />
+<p align="center">
+    <img src="art/en/screenshots.png" alt="PrayerTimes Pro screenshots — menu bar countdown, prayer times, Hijri calendar, settings" width="780">
+</p>
 
-## Downloads
+---
 
-### Current version
+## Why PrayerTimes Pro?
 
-Download the latest version from the [Releases](https://github.com/App-Builders-Gang/PrayerTimes/releases/latest) page, or install via Homebrew:
+- **Completely private** — no tracking, no analytics, no accounts. All data stays on your Mac.
+- **Designed for the menu bar** — always visible, never in the way. Countdown, exact time, compact, or icon-only.
+- **Accurate worldwide** — 18+ calculation methods, per-prayer adjustments, custom angles.
+- **Offline-first** — calculations happen on-device. Network is only used for optional location search.
+
+## Install
+
+**Requirements:** macOS 13 (Ventura) or later · Apple Silicon & Intel
+
+### Mac App Store (recommended)
+
+<a href="https://apps.apple.com/eg/app/prayer-times-pro-menubar/id6763390896?mt=12">
+    <img src="https://developer.apple.com/assets/elements/badges/download-on-the-mac-app-store.svg" alt="Download on the Mac App Store" height="48">
+</a>
+
+### Homebrew
 
 ```sh
 brew install --cask app-builders-gang/tap/prayertimes
 ```
 
-**Prayer Times Pro - Menubar** is also available on the [Mac App Store](https://apps.apple.com/eg/app/prayer-times-pro-menubar/id6763390896?mt=12):
+### Direct download
 
-<a href="https://apps.apple.com/eg/app/prayer-times-pro-menubar/id6763390896?mt=12"><img src="https://developer.apple.com/assets/elements/badges/download-on-the-mac-app-store.svg" alt="Download on the Mac App Store" height="48"></a>
+Download the latest `.dmg` from [Releases](https://github.com/App-Builders-Gang/PrayerTimes/releases/latest). The Developer ID build is signed, notarized, and auto-updates via [Sparkle](https://sparkle-project.org).
 
-### Legacy versions
+If macOS blocks the first launch:
 
-Older releases are available in the [Releases](https://github.com/App-Builders-Gang/PrayerTimes/releases) section.
+```sh
+xattr -r -d com.apple.quarantine /Applications/PrayerTimes.app
+```
+
+## Features
+
+- Menu bar **countdown**, exact time, compact, or icon-only display
+- **Notifications** before and at prayer time, with optional full-screen alerts
+- **18+ calculation methods**: Muslim World League (MWL), ISNA, Egyptian General Authority, Umm al-Qura (Makkah), Diyanet (Turkey), Kemenag (Indonesia), Karachi, Tehran, Dubai, Qatar, Singapore, Kuwait, Algeria, France, Germany, Malaysia (JAKIM), and more
+- **Auto or manual location** · per-prayer time adjustments to match your local mosque
+- **Hijri calendar** with adjustable date and Islamic event notifications (Ramadan, Eid al-Fitr, Eid al-Adha, Islamic New Year, Day of Ashura, and more)
+- **Ramadan mode**: Suhoor and Iftar notifications with pre-alerts
+- **Locale-aware numerals** (Arabic-Indic, Extended Arabic-Indic, Western)
+- **5 languages**: English, العربية, Bahasa Indonesia, فارسی, اردو — with full RTL support
+- **Light/dark mode** follows your system
+
+## Privacy
+
+No tracking. No analytics. No crash reporters. No advertising. No accounts. All data stays on your Mac.
+
+The network is used only for optional location search (OpenStreetMap Nominatim) and Sparkle update checks (Developer ID build only). The Mac App Store build receives updates exclusively through Apple.
 
 ## What you can do here
 
-- [Issues](https://github.com/App-Builders-Gang/PrayerTimes/issues) — report a bug or request a feature, or [create](https://github.com/App-Builders-Gang/PrayerTimes/issues/new/choose) a new one.
-- [Discussions](https://github.com/App-Builders-Gang/PrayerTimes/discussions) — ask questions and share ideas with other users.
-- [Releases](https://github.com/App-Builders-Gang/PrayerTimes/releases) — download a specific version or read the changelog.
-- [Wiki](https://github.com/App-Builders-Gang/PrayerTimes/wiki) — guides, FAQ, and shared knowledge.
+- 🐛 [**Issues**](https://github.com/App-Builders-Gang/PrayerTimes/issues) — report a bug or request a feature, or [create a new one](https://github.com/App-Builders-Gang/PrayerTimes/issues/new/choose).
+- 💬 [**Discussions**](https://github.com/App-Builders-Gang/PrayerTimes/discussions) — ask questions, share ideas, and chat with other users.
+- 📥 [**Releases**](https://github.com/App-Builders-Gang/PrayerTimes/releases) — download a specific version or read the changelog.
+- 📚 [**Wiki**](https://github.com/App-Builders-Gang/PrayerTimes/wiki) — guides, FAQ, and shared knowledge.
 
-If you have a problem or a request, search the [Issues](https://github.com/App-Builders-Gang/PrayerTimes/issues) for similar ones first, then [create a new one](https://github.com/App-Builders-Gang/PrayerTimes/issues/new/choose).
+If you have a problem or a request, search [Issues](https://github.com/App-Builders-Gang/PrayerTimes/issues) first, then [open a new one](https://github.com/App-Builders-Gang/PrayerTimes/issues/new/choose). For general chat that doesn't fit as an issue, head to [Discussions](https://github.com/App-Builders-Gang/PrayerTimes/discussions).
 
-For general chat that doesn't fit as an issue, head to [Discussions](https://github.com/App-Builders-Gang/PrayerTimes/discussions).
+## Support development
 
-## Support
+PrayerTimes Pro is built and maintained by one developer in their spare time. If it's useful to you, please consider supporting development:
 
-PrayerTimes is built and maintained by one developer in their spare time. If it's useful to you, please consider supporting development:
+<p>
+    <a href="https://github.com/sponsors/abd3lraouf"><img src="https://img.shields.io/badge/GitHub%20Sponsors-EA4AAA?logo=github-sponsors&logoColor=white" alt="GitHub Sponsors" height="32"></a>
+    <a href="https://www.buymeacoffee.com/abd3lraouf"><img src="https://img.shields.io/badge/Buy%20Me%20a%20Coffee-FFDD00?logo=buy-me-a-coffee&logoColor=black" alt="Buy Me a Coffee" height="32"></a>
+    <a href="https://ko-fi.com/abd3lraouf"><img src="https://img.shields.io/badge/Ko--fi-FF5E5B?logo=ko-fi&logoColor=white" alt="Ko-fi" height="32"></a>
+</p>
 
-- **GitHub Sponsors** — [github.com/sponsors/abd3lraouf](https://github.com/sponsors/abd3lraouf)
-- **Buy Me a Coffee** — [buymeacoffee.com/abd3lraouf](https://www.buymeacoffee.com/abd3lraouf)
-- **Ko-fi** — [ko-fi.com/abd3lraouf](https://ko-fi.com/abd3lraouf)
+Every contribution — no matter how small — helps keep the app actively developed and free of ads, trackers, and accounts.
 
-Every contribution — no matter how small — helps keep the app free, ad-free, and tracker-free.
+## Credits
+
+Built on top of these excellent projects:
+
+- [Adhan](https://github.com/batoulapps/Adhan) — prayer time calculation
+- [FluidMenuBarExtra](https://github.com/lfroms/fluid-menu-bar-extra) — menu bar UI
+- [NavigationStack](https://github.com/indieSoftware/NavigationStack) — navigation
+- [Sparkle](https://sparkle-project.org) — auto-update framework (Developer ID build)
+- Inspired by [Sajda](https://github.com/ikoshura/Sajda)
 
 ## License
 
-The PrayerTimes app is closed source. This repository hosts the public release artifacts, issues, and discussions only.
+PrayerTimes Pro is **closed source**. This repository hosts the public release artifacts, issues, and discussions only. The application is distributed under its own [End User License Agreement](https://apps.apple.com/eg/app/prayer-times-pro-menubar/id6763390896?mt=12).
