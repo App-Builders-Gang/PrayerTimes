@@ -1,4 +1,8 @@
 <p align="center">
+    <strong>English</strong> | <a href="README.ar.md">العربية</a> | <a href="README.id.md">Indonesia</a> | <a href="README.fa.md">فارسی</a> | <a href="README.ur.md">اردو</a>
+</p>
+
+<p align="center">
     <img src="art/en/logo.png" alt="PrayerTimes Pro — Prayer Times for Mac" height="120">
 </p>
 
@@ -28,7 +32,6 @@
     <img src="https://img.shields.io/badge/arch-Apple%20Silicon%20%7C%20Intel-lightgrey.svg" alt="Apple Silicon & Intel">
     <img src="https://img.shields.io/badge/notarized-✓-success.svg" alt="Apple Notarized">
     <img src="https://img.shields.io/badge/sandboxed-✓-success.svg" alt="Sandboxed">
-    <img src="https://img.shields.io/badge/license-EULA-blue.svg" alt="EULA">
 </p>
 
 <p align="center">
@@ -121,4 +124,4 @@ Built on top of these excellent projects:
 
 ## License
 
-PrayerTimes Pro is **closed source**. This repository hosts the public release artifacts, issues, and discussions only. The application is distributed under its own [End User License Agreement](https://apps.apple.com/eg/app/prayer-times-pro-menubar/id6763390896?mt=12).
+PrayerTimes Pro is **closed source**. This repository hosts the public release artifacts, issues, and discussions only. The application is distributed under its own End User License Agreement — see the [Mac App Store listing](https://apps.apple.com/eg/app/prayer-times-pro-menubar/id6763390896?mt=12).
