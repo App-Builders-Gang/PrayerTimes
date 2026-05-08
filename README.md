@@ -26,7 +26,9 @@ Download the latest version from the [Releases](https://github.com/App-Builders-
 brew install --cask app-builders-gang/tap/prayertimes
 ```
 
-PrayerTimes is also available on the [Mac App Store](#) <!-- TODO: add MAS URL once live -->.
+**Prayer Times Pro - Menubar** is also available on the [Mac App Store](https://apps.apple.com/eg/app/prayer-times-pro-menubar/id6763390896?mt=12):
+
+<a href="https://apps.apple.com/eg/app/prayer-times-pro-menubar/id6763390896?mt=12"><img src="https://developer.apple.com/assets/elements/badges/download-on-the-mac-app-store.svg" alt="Download on the Mac App Store" height="48"></a>
 
 ### Legacy versions
 
