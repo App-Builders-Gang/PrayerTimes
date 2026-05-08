@@ -1,0 +1,64 @@
+name: Bug Report
+description: Report a problem with PrayerTimes
+labels: ["bug"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for reporting a bug! Please fill out the sections below.
+  - type: input
+    id: macos-version
+    attributes:
+      label: macOS Version
+      description: Which macOS version are you running?
+      placeholder: "e.g. macOS 15.3 Sequoia"
+    validations:
+      required: true
+  - type: input
+    id: app-version
+    attributes:
+      label: App Version
+      description: Which version of PrayerTimes? (shown in Settings)
+      placeholder: "e.g. 2.2.2"
+    validations:
+      required: true
+  - type: textarea
+    id: steps
+    attributes:
+      label: Steps to Reproduce
+      description: How can we reproduce the issue?
+      placeholder: |
+        1. Open PrayerTimes
+        2. Go to Settings
+        3. Change language to Arabic
+        4. ...
+    validations:
+      required: true
+  - type: textarea
+    id: expected
+    attributes:
+      label: Expected Behavior
+      description: What did you expect to happen?
+    validations:
+      required: true
+  - type: textarea
+    id: actual
+    attributes:
+      label: Actual Behavior
+      description: What happened instead?
+    validations:
+      required: true
+  - type: textarea
+    id: screenshots
+    attributes:
+      label: Screenshots
+      description: If applicable, add screenshots to help explain the issue.
+    validations:
+      required: false
+  - type: textarea
+    id: additional
+    attributes:
+      label: Additional Context
+      description: Any other relevant information (device model, language setting, calculation method, etc.)
+    validations:
+      required: false
