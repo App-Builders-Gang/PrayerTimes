@@ -15,7 +15,7 @@
 
 <p align="center">
     <a href="https://apps.apple.com/eg/app/prayer-times-pro-menubar/id6763390896?mt=12">
-        <img src="https://developer.apple.com/assets/elements/badges/download-on-the-mac-app-store.svg" alt="Unduh di Mac App Store" height="56">
+        <img src="https://developer.apple.com/app-store/marketing/guidelines/images/badge-download-on-the-mac-app-store.svg" alt="Unduh di Mac App Store" height="56">
     </a>
 </p>
 
@@ -54,7 +54,7 @@
 ### Mac App Store (direkomendasikan)
 
 <a href="https://apps.apple.com/eg/app/prayer-times-pro-menubar/id6763390896?mt=12">
-    <img src="https://developer.apple.com/assets/elements/badges/download-on-the-mac-app-store.svg" alt="Unduh di Mac App Store" height="48">
+    <img src="https://developer.apple.com/app-store/marketing/guidelines/images/badge-download-on-the-mac-app-store.svg" alt="Unduh di Mac App Store" height="48">
 </a>
 
 ### Homebrew
