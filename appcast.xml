@@ -77,6 +77,21 @@
       length="5667334"
       type="application/octet-stream" />
   </item>
+    <item>
+    <title>Version 1.1.4</title>
+    <sparkle:version>53</sparkle:version>
+    <sparkle:shortVersionString>1.1.4</sparkle:shortVersionString>
+    <sparkle:minimumSystemVersion>11.0</sparkle:minimumSystemVersion>
+    <pubDate>Fri, 08 May 2026 01:58:24 +0000</pubDate>
+    <description><![CDATA[<ul><li>fix(ci): pass PUBLIC_RELEASES_TOKEN via softprops with.token (c7e9356)</li><li>chore: bump version to 1.1.4 (268cb7f)</li><li>chore: remove MIT LICENSE (source is now closed) (0c021ef)</li><li>ci: retarget release.yml to public repo + document repo split (0babd49)</li></ul>]]></description>
+    <enclosure url="https://github.com/App-Builders-Gang/PrayerTimes/releases/download/v1.1.4/PrayerTimes-1.1.4.zip"
+      sparkle:version="53"
+      sparkle:shortVersionString="1.1.4"
+      sparkle:edSignature="cfNxYrole9rB6j1KWglb9I6Huzs+E1sSxzMlcpa/8G7LlmR2NOCCvYL+wALrihJAlSxHvqJnrImB9n0K162LAA=="
+      length="5667580"
+      type="application/octet-stream" />
+  </item>
+
 
 
 
