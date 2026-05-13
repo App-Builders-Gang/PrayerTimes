@@ -91,6 +91,21 @@
       length="5667580"
       type="application/octet-stream" />
   </item>
+    <item>
+    <title>Version 1.1.5</title>
+    <sparkle:version>54</sparkle:version>
+    <sparkle:shortVersionString>1.1.5</sparkle:shortVersionString>
+    <sparkle:minimumSystemVersion>11.0</sparkle:minimumSystemVersion>
+    <pubDate>Wed, 13 May 2026 22:42:05 +0000</pubDate>
+    <description><![CDATA[<ul><li>fix: resolve 5.1.1(iv) permission UX rejection + bump to 1.1.5 (1e663e2)</li></ul>]]></description>
+    <enclosure url="https://github.com/App-Builders-Gang/PrayerTimes/releases/download/v1.1.5/PrayerTimes-1.1.5.zip"
+      sparkle:version="54"
+      sparkle:shortVersionString="1.1.5"
+      sparkle:edSignature="OYUahTm1L9m0DTjwy/e1HWEfeKfg0pMIW3SFZyXTWTRZabmjL76mQPYTNPd4ibGSieRdebiilXQkYx8MY2zTCw=="
+      length="5664031"
+      type="application/octet-stream" />
+  </item>
+
 
 
 
