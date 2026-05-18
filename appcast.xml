@@ -105,6 +105,21 @@
       length="5664031"
       type="application/octet-stream" />
   </item>
+    <item>
+    <title>Version 1.2.0</title>
+    <sparkle:version>55</sparkle:version>
+    <sparkle:shortVersionString>1.2.0</sparkle:shortVersionString>
+    <sparkle:minimumSystemVersion>11.0</sparkle:minimumSystemVersion>
+    <pubDate>Mon, 18 May 2026 04:39:24 +0000</pubDate>
+    <description><![CDATA[<ul><li>chore: bump version to 1.2.0 (4d2eac9)</li><li>feat(settings): single-line picker rows + icon-toggle-aware layout (8c36cc1)</li><li>feat(ui): unified design system + popover/settings restyle (156f6f8)</li><li>docs: update changelogs for 1.1.5 (MAS resubmission) (efa49cc)</li></ul>]]></description>
+    <enclosure url="https://github.com/App-Builders-Gang/PrayerTimes/releases/download/v1.2.0/PrayerTimes-1.2.0.zip"
+      sparkle:version="55"
+      sparkle:shortVersionString="1.2.0"
+      sparkle:edSignature="BcJ5c6uJr+VQt4Ffz3+qYa7ZJbLVh6yP97dRxsQ9KeSlVlKtb6JuthFgNdsc+/Dh2Q0/Qs83CyNEWFAqYwgxBQ=="
+      length="5951670"
+      type="application/octet-stream" />
+  </item>
+
 
 
 
