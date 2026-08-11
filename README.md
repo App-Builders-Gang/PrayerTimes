@@ -10,7 +10,7 @@
 
 <p align="center">
     <strong>A minimalist, privacy-first Islamic prayer times app for your Mac's menu bar.</strong><br>
-    Fully offline · 18+ calculation methods · 5 languages · Apple Silicon & Intel
+    Offline prayer-time calculation · 18+ methods · 5 languages · Apple Silicon & Intel
 </p>
 
 <p align="center">
@@ -42,7 +42,7 @@
 
 ## Why PrayerTimes Pro?
 
-- **Completely private** — no tracking, no analytics, no accounts. All data stays on your Mac.
+- **Completely private** — no tracking, no analytics, no accounts. Prayer times are calculated on your Mac, and your precise location is never transmitted.
 - **Designed for the menu bar** — always visible, never in the way. Countdown, exact time, compact, or icon-only.
 - **Accurate worldwide** — 18+ calculation methods, per-prayer adjustments, custom angles.
 - **Offline-first** — calculations happen on-device. Network is only used for optional location search.
@@ -87,9 +87,9 @@ xattr -r -d com.apple.quarantine /Applications/PrayerTimes.app
 
 ## Privacy
 
-No tracking. No analytics. No crash reporters. No advertising. No accounts. All data stays on your Mac.
+No tracking. No analytics. No crash reporters. No advertising. No accounts. Prayer times are calculated entirely on your Mac, and your **precise** location is never transmitted.
 
-The network is used only for optional location search (OpenStreetMap Nominatim) and Sparkle update checks (Developer ID build only). The Mac App Store build receives updates exclusively through Apple.
+To show a city name rather than raw coordinates, the app rounds your position to ~1.1 km and asks Apple's geocoder for a name. Sending that coarsened coordinate to **OpenStreetMap Nominatim** instead — which Indonesian, Persian and Urdu need for a correctly-written name — is **off by default** and opt-in under Settings → Calculation & Location. Typing a city into the location picker sends the text you typed. Pro adhan clips download on demand from the Internet Archive, and Sparkle update checks run in the Developer ID build only. The Mac App Store build receives updates exclusively through Apple.
 
 ## What you can do here
 

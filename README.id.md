@@ -10,7 +10,7 @@
 
 <p align="center">
     <strong>Aplikasi waktu shalat minimalis yang mengutamakan privasi, tinggal di menu bar Mac Anda.</strong><br>
-    Sepenuhnya offline · 18+ metode perhitungan · 5 bahasa · Apple Silicon & Intel
+    Perhitungan waktu salat offline · 18+ metode · 5 bahasa · Apple Silicon & Intel
 </p>
 
 <p align="center">
@@ -42,7 +42,7 @@
 
 ## Mengapa PrayerTimes Pro?
 
-- **Sepenuhnya privat** — tanpa pelacakan, analitik, atau akun. Semua data tetap di Mac Anda.
+- **Sepenuhnya privat** — tanpa pelacakan, analitik, atau akun. Waktu salat dihitung di Mac Anda, dan lokasi presisi Anda tidak pernah dikirim.
 - **Dirancang untuk menu bar** — selalu terlihat, tidak pernah mengganggu. Hitung mundur, waktu pasti, ringkas, atau hanya ikon.
 - **Akurat di seluruh dunia** — 18+ metode perhitungan, penyesuaian per shalat, sudut khusus.
 - **Offline-first** — perhitungan terjadi di perangkat. Jaringan hanya digunakan untuk pencarian lokasi opsional.
@@ -87,9 +87,9 @@ xattr -r -d com.apple.quarantine /Applications/PrayerTimes.app
 
 ## Privasi
 
-Tanpa pelacakan. Tanpa analitik. Tanpa pelapor crash. Tanpa iklan. Tanpa akun. Semua data tetap di Mac Anda.
+Tanpa pelacakan. Tanpa analitik. Tanpa pelapor crash. Tanpa iklan. Tanpa akun. Waktu salat dihitung sepenuhnya di Mac Anda, dan lokasi **presisi** Anda tidak pernah dikirim.
 
-Jaringan hanya digunakan untuk pencarian lokasi opsional (OpenStreetMap Nominatim) dan pemeriksaan pembaruan Sparkle (hanya build Developer ID). Build Mac App Store menerima pembaruan secara eksklusif melalui Apple.
+Untuk menampilkan nama kota alih-alih koordinat mentah, aplikasi membulatkan posisi Anda ke ~1,1 km lalu meminta namanya ke geocoder Apple. Mengirim koordinat yang sudah dibulatkan itu ke **OpenStreetMap Nominatim** — yang dibutuhkan bahasa Indonesia, Persia, dan Urdu agar namanya tertulis benar — **nonaktif secara bawaan** dan dapat diaktifkan di Pengaturan → Perhitungan & Lokasi. Saat mengetik nama kota di pemilih lokasi, hanya teks yang Anda ketik yang dikirim. Klip adzan Pro diunduh sesuai permintaan dari Internet Archive, dan pemeriksaan pembaruan Sparkle hanya berjalan di build Developer ID. Build Mac App Store menerima pembaruan secara eksklusif melalui Apple.
 
 ## Yang bisa Anda lakukan di sini
 
