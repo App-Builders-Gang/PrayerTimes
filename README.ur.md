@@ -20,11 +20,11 @@
 </p>
 
 <p align="center">
-    <a href="https://github.com/App-Builders-Gang/PrayerTimes/releases/latest"><img src="https://img.shields.io/github/v/release/App-Builders-Gang/PrayerTimes?color=%2300834a&label=latest" alt="تازہ ترین ریلیز"></a>
-    <a href="https://github.com/App-Builders-Gang/PrayerTimes/releases/latest"><img src="https://img.shields.io/github/downloads/App-Builders-Gang/PrayerTimes/latest/total?color=%2300834a&label=downloads%20%28latest%29" alt="تازہ ترین ڈاؤن لوڈ"></a>
-    <a href="https://github.com/App-Builders-Gang/PrayerTimes/releases"><img src="https://img.shields.io/github/downloads/App-Builders-Gang/PrayerTimes/total?color=%2300834a&label=downloads%20%28total%29" alt="کل ڈاؤن لوڈ"></a>
-    <a href="https://github.com/App-Builders-Gang/PrayerTimes/issues"><img src="https://img.shields.io/github/issues/App-Builders-Gang/PrayerTimes?color=%2300834a" alt="کھلے مسائل"></a>
-    <a href="https://github.com/App-Builders-Gang/PrayerTimes/stargazers"><img src="https://img.shields.io/github/stars/App-Builders-Gang/PrayerTimes?color=%2300834a&style=flat" alt="ستارے"></a>
+    <a href="https://github.com/abd3lraouf-studios/PrayerTimes/releases/latest"><img src="https://img.shields.io/github/v/release/abd3lraouf-studios/PrayerTimes?color=%2300834a&label=latest" alt="تازہ ترین ریلیز"></a>
+    <a href="https://github.com/abd3lraouf-studios/PrayerTimes/releases/latest"><img src="https://img.shields.io/github/downloads/abd3lraouf-studios/PrayerTimes/latest/total?color=%2300834a&label=downloads%20%28latest%29" alt="تازہ ترین ڈاؤن لوڈ"></a>
+    <a href="https://github.com/abd3lraouf-studios/PrayerTimes/releases"><img src="https://img.shields.io/github/downloads/abd3lraouf-studios/PrayerTimes/total?color=%2300834a&label=downloads%20%28total%29" alt="کل ڈاؤن لوڈ"></a>
+    <a href="https://github.com/abd3lraouf-studios/PrayerTimes/issues"><img src="https://img.shields.io/github/issues/abd3lraouf-studios/PrayerTimes?color=%2300834a" alt="کھلے مسائل"></a>
+    <a href="https://github.com/abd3lraouf-studios/PrayerTimes/stargazers"><img src="https://img.shields.io/github/stars/abd3lraouf-studios/PrayerTimes?color=%2300834a&style=flat" alt="ستارے"></a>
 </p>
 
 <p align="center">
@@ -60,12 +60,12 @@
 ### Homebrew
 
 ```sh
-brew install --cask app-builders-gang/tap/prayertimes
+brew install --cask abd3lraouf-studios/tap/prayertimes
 ```
 
 ### براہِ راست ڈاؤن لوڈ
 
-تازہ ترین `.dmg` فائل [Releases](https://github.com/App-Builders-Gang/PrayerTimes/releases/latest) سے ڈاؤن لوڈ کریں۔ Developer ID والا بلڈ سائن شدہ، ایپل سے توثیق شدہ، اور [Sparkle](https://sparkle-project.org) کے ذریعے خودکار طور پر اپڈیٹ ہوتا ہے۔
+تازہ ترین `.dmg` فائل [Releases](https://github.com/abd3lraouf-studios/PrayerTimes/releases/latest) سے ڈاؤن لوڈ کریں۔ Developer ID والا بلڈ سائن شدہ، ایپل سے توثیق شدہ، اور [Sparkle](https://sparkle-project.org) کے ذریعے خودکار طور پر اپڈیٹ ہوتا ہے۔
 
 اگر macOS پہلی بار چلانے سے روکے:
 
@@ -93,12 +93,12 @@ xattr -r -d com.apple.quarantine /Applications/PrayerTimes.app
 
 ## یہاں آپ کیا کر سکتے ہیں
 
-- 🐛 [**Issues**](https://github.com/App-Builders-Gang/PrayerTimes/issues) — بگ رپورٹ کریں یا فیچر کی درخواست کریں، یا [نیا بنائیں](https://github.com/App-Builders-Gang/PrayerTimes/issues/new/choose)۔
-- 💬 [**Discussions**](https://github.com/App-Builders-Gang/PrayerTimes/discussions) — سوالات پوچھیں، خیالات کا اشتراک کریں، اور دیگر صارفین سے بات چیت کریں۔
-- 📥 [**Releases**](https://github.com/App-Builders-Gang/PrayerTimes/releases) — کوئی مخصوص ورژن ڈاؤن لوڈ کریں یا تبدیلیوں کی فہرست دیکھیں۔
-- 📚 [**Wiki**](https://github.com/App-Builders-Gang/PrayerTimes/wiki) — گائیڈز، اکثر پوچھے گئے سوالات، اور مشترکہ معلومات۔
+- 🐛 [**Issues**](https://github.com/abd3lraouf-studios/PrayerTimes/issues) — بگ رپورٹ کریں یا فیچر کی درخواست کریں، یا [نیا بنائیں](https://github.com/abd3lraouf-studios/PrayerTimes/issues/new/choose)۔
+- 💬 [**Discussions**](https://github.com/abd3lraouf-studios/PrayerTimes/discussions) — سوالات پوچھیں، خیالات کا اشتراک کریں، اور دیگر صارفین سے بات چیت کریں۔
+- 📥 [**Releases**](https://github.com/abd3lraouf-studios/PrayerTimes/releases) — کوئی مخصوص ورژن ڈاؤن لوڈ کریں یا تبدیلیوں کی فہرست دیکھیں۔
+- 📚 [**Wiki**](https://github.com/abd3lraouf-studios/PrayerTimes/wiki) — گائیڈز، اکثر پوچھے گئے سوالات، اور مشترکہ معلومات۔
 
-اگر آپ کو مسئلہ ہو یا درخواست ہو، پہلے [Issues](https://github.com/App-Builders-Gang/PrayerTimes/issues) میں تلاش کریں، پھر [نیا کھولیں](https://github.com/App-Builders-Gang/PrayerTimes/issues/new/choose)۔ عمومی بات چیت کے لیے [Discussions](https://github.com/App-Builders-Gang/PrayerTimes/discussions) پر جائیں۔
+اگر آپ کو مسئلہ ہو یا درخواست ہو، پہلے [Issues](https://github.com/abd3lraouf-studios/PrayerTimes/issues) میں تلاش کریں، پھر [نیا کھولیں](https://github.com/abd3lraouf-studios/PrayerTimes/issues/new/choose)۔ عمومی بات چیت کے لیے [Discussions](https://github.com/abd3lraouf-studios/PrayerTimes/discussions) پر جائیں۔
 
 ## ترقی کی حمایت کریں
 

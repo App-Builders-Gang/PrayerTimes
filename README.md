@@ -20,11 +20,11 @@
 </p>
 
 <p align="center">
-    <a href="https://github.com/App-Builders-Gang/PrayerTimes/releases/latest"><img src="https://img.shields.io/github/v/release/App-Builders-Gang/PrayerTimes?color=%2300834a&label=latest" alt="Latest release"></a>
-    <a href="https://github.com/App-Builders-Gang/PrayerTimes/releases/latest"><img src="https://img.shields.io/github/downloads/App-Builders-Gang/PrayerTimes/latest/total?color=%2300834a&label=downloads%20%28latest%29" alt="Latest downloads"></a>
-    <a href="https://github.com/App-Builders-Gang/PrayerTimes/releases"><img src="https://img.shields.io/github/downloads/App-Builders-Gang/PrayerTimes/total?color=%2300834a&label=downloads%20%28total%29" alt="Total downloads"></a>
-    <a href="https://github.com/App-Builders-Gang/PrayerTimes/issues"><img src="https://img.shields.io/github/issues/App-Builders-Gang/PrayerTimes?color=%2300834a" alt="Open issues"></a>
-    <a href="https://github.com/App-Builders-Gang/PrayerTimes/stargazers"><img src="https://img.shields.io/github/stars/App-Builders-Gang/PrayerTimes?color=%2300834a&style=flat" alt="Stars"></a>
+    <a href="https://github.com/abd3lraouf-studios/PrayerTimes/releases/latest"><img src="https://img.shields.io/github/v/release/abd3lraouf-studios/PrayerTimes?color=%2300834a&label=latest" alt="Latest release"></a>
+    <a href="https://github.com/abd3lraouf-studios/PrayerTimes/releases/latest"><img src="https://img.shields.io/github/downloads/abd3lraouf-studios/PrayerTimes/latest/total?color=%2300834a&label=downloads%20%28latest%29" alt="Latest downloads"></a>
+    <a href="https://github.com/abd3lraouf-studios/PrayerTimes/releases"><img src="https://img.shields.io/github/downloads/abd3lraouf-studios/PrayerTimes/total?color=%2300834a&label=downloads%20%28total%29" alt="Total downloads"></a>
+    <a href="https://github.com/abd3lraouf-studios/PrayerTimes/issues"><img src="https://img.shields.io/github/issues/abd3lraouf-studios/PrayerTimes?color=%2300834a" alt="Open issues"></a>
+    <a href="https://github.com/abd3lraouf-studios/PrayerTimes/stargazers"><img src="https://img.shields.io/github/stars/abd3lraouf-studios/PrayerTimes?color=%2300834a&style=flat" alt="Stars"></a>
 </p>
 
 <p align="center">
@@ -60,12 +60,12 @@
 ### Homebrew
 
 ```sh
-brew install --cask app-builders-gang/tap/prayertimes
+brew install --cask abd3lraouf-studios/tap/prayertimes
 ```
 
 ### Direct download
 
-Download the latest `.dmg` from [Releases](https://github.com/App-Builders-Gang/PrayerTimes/releases/latest). The Developer ID build is signed, notarized, and auto-updates via [Sparkle](https://sparkle-project.org).
+Download the latest `.dmg` from [Releases](https://github.com/abd3lraouf-studios/PrayerTimes/releases/latest). The Developer ID build is signed, notarized, and auto-updates via [Sparkle](https://sparkle-project.org).
 
 If macOS blocks the first launch:
 
@@ -93,12 +93,12 @@ To show a city name rather than raw coordinates, the app rounds your position to
 
 ## What you can do here
 
-- 🐛 [**Issues**](https://github.com/App-Builders-Gang/PrayerTimes/issues) — report a bug or request a feature, or [create a new one](https://github.com/App-Builders-Gang/PrayerTimes/issues/new/choose).
-- 💬 [**Discussions**](https://github.com/App-Builders-Gang/PrayerTimes/discussions) — ask questions, share ideas, and chat with other users.
-- 📥 [**Releases**](https://github.com/App-Builders-Gang/PrayerTimes/releases) — download a specific version or read the changelog.
-- 📚 [**Wiki**](https://github.com/App-Builders-Gang/PrayerTimes/wiki) — guides, FAQ, and shared knowledge.
+- 🐛 [**Issues**](https://github.com/abd3lraouf-studios/PrayerTimes/issues) — report a bug or request a feature, or [create a new one](https://github.com/abd3lraouf-studios/PrayerTimes/issues/new/choose).
+- 💬 [**Discussions**](https://github.com/abd3lraouf-studios/PrayerTimes/discussions) — ask questions, share ideas, and chat with other users.
+- 📥 [**Releases**](https://github.com/abd3lraouf-studios/PrayerTimes/releases) — download a specific version or read the changelog.
+- 📚 [**Wiki**](https://github.com/abd3lraouf-studios/PrayerTimes/wiki) — guides, FAQ, and shared knowledge.
 
-If you have a problem or a request, search [Issues](https://github.com/App-Builders-Gang/PrayerTimes/issues) first, then [open a new one](https://github.com/App-Builders-Gang/PrayerTimes/issues/new/choose). For general chat that doesn't fit as an issue, head to [Discussions](https://github.com/App-Builders-Gang/PrayerTimes/discussions).
+If you have a problem or a request, search [Issues](https://github.com/abd3lraouf-studios/PrayerTimes/issues) first, then [open a new one](https://github.com/abd3lraouf-studios/PrayerTimes/issues/new/choose). For general chat that doesn't fit as an issue, head to [Discussions](https://github.com/abd3lraouf-studios/PrayerTimes/discussions).
 
 ## Support development
 

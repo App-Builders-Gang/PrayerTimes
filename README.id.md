@@ -20,11 +20,11 @@
 </p>
 
 <p align="center">
-    <a href="https://github.com/App-Builders-Gang/PrayerTimes/releases/latest"><img src="https://img.shields.io/github/v/release/App-Builders-Gang/PrayerTimes?color=%2300834a&label=latest" alt="Rilis terbaru"></a>
-    <a href="https://github.com/App-Builders-Gang/PrayerTimes/releases/latest"><img src="https://img.shields.io/github/downloads/App-Builders-Gang/PrayerTimes/latest/total?color=%2300834a&label=downloads%20%28latest%29" alt="Unduhan rilis terbaru"></a>
-    <a href="https://github.com/App-Builders-Gang/PrayerTimes/releases"><img src="https://img.shields.io/github/downloads/App-Builders-Gang/PrayerTimes/total?color=%2300834a&label=downloads%20%28total%29" alt="Total unduhan"></a>
-    <a href="https://github.com/App-Builders-Gang/PrayerTimes/issues"><img src="https://img.shields.io/github/issues/App-Builders-Gang/PrayerTimes?color=%2300834a" alt="Issue terbuka"></a>
-    <a href="https://github.com/App-Builders-Gang/PrayerTimes/stargazers"><img src="https://img.shields.io/github/stars/App-Builders-Gang/PrayerTimes?color=%2300834a&style=flat" alt="Bintang"></a>
+    <a href="https://github.com/abd3lraouf-studios/PrayerTimes/releases/latest"><img src="https://img.shields.io/github/v/release/abd3lraouf-studios/PrayerTimes?color=%2300834a&label=latest" alt="Rilis terbaru"></a>
+    <a href="https://github.com/abd3lraouf-studios/PrayerTimes/releases/latest"><img src="https://img.shields.io/github/downloads/abd3lraouf-studios/PrayerTimes/latest/total?color=%2300834a&label=downloads%20%28latest%29" alt="Unduhan rilis terbaru"></a>
+    <a href="https://github.com/abd3lraouf-studios/PrayerTimes/releases"><img src="https://img.shields.io/github/downloads/abd3lraouf-studios/PrayerTimes/total?color=%2300834a&label=downloads%20%28total%29" alt="Total unduhan"></a>
+    <a href="https://github.com/abd3lraouf-studios/PrayerTimes/issues"><img src="https://img.shields.io/github/issues/abd3lraouf-studios/PrayerTimes?color=%2300834a" alt="Issue terbuka"></a>
+    <a href="https://github.com/abd3lraouf-studios/PrayerTimes/stargazers"><img src="https://img.shields.io/github/stars/abd3lraouf-studios/PrayerTimes?color=%2300834a&style=flat" alt="Bintang"></a>
 </p>
 
 <p align="center">
@@ -60,12 +60,12 @@
 ### Homebrew
 
 ```sh
-brew install --cask app-builders-gang/tap/prayertimes
+brew install --cask abd3lraouf-studios/tap/prayertimes
 ```
 
 ### Unduh langsung
 
-Unduh `.dmg` terbaru dari [Rilis](https://github.com/App-Builders-Gang/PrayerTimes/releases/latest). Build Developer ID telah ditandatangani, dinotarisasi, dan otomatis diperbarui melalui [Sparkle](https://sparkle-project.org).
+Unduh `.dmg` terbaru dari [Rilis](https://github.com/abd3lraouf-studios/PrayerTimes/releases/latest). Build Developer ID telah ditandatangani, dinotarisasi, dan otomatis diperbarui melalui [Sparkle](https://sparkle-project.org).
 
 Jika macOS memblokir pertama kali:
 
@@ -93,12 +93,12 @@ Untuk menampilkan nama kota alih-alih koordinat mentah, aplikasi membulatkan pos
 
 ## Yang bisa Anda lakukan di sini
 
-- 🐛 [**Issue**](https://github.com/App-Builders-Gang/PrayerTimes/issues) — laporkan bug atau minta fitur, atau [buat issue baru](https://github.com/App-Builders-Gang/PrayerTimes/issues/new/choose).
-- 💬 [**Discussions**](https://github.com/App-Builders-Gang/PrayerTimes/discussions) — ajukan pertanyaan, bagikan ide, dan ngobrol dengan pengguna lain.
-- 📥 [**Releases**](https://github.com/App-Builders-Gang/PrayerTimes/releases) — unduh versi tertentu atau baca catatan perubahan.
-- 📚 [**Wiki**](https://github.com/App-Builders-Gang/PrayerTimes/wiki) — panduan, FAQ, dan pengetahuan bersama.
+- 🐛 [**Issue**](https://github.com/abd3lraouf-studios/PrayerTimes/issues) — laporkan bug atau minta fitur, atau [buat issue baru](https://github.com/abd3lraouf-studios/PrayerTimes/issues/new/choose).
+- 💬 [**Discussions**](https://github.com/abd3lraouf-studios/PrayerTimes/discussions) — ajukan pertanyaan, bagikan ide, dan ngobrol dengan pengguna lain.
+- 📥 [**Releases**](https://github.com/abd3lraouf-studios/PrayerTimes/releases) — unduh versi tertentu atau baca catatan perubahan.
+- 📚 [**Wiki**](https://github.com/abd3lraouf-studios/PrayerTimes/wiki) — panduan, FAQ, dan pengetahuan bersama.
 
-Jika Anda memiliki masalah atau permintaan, cari [Issue](https://github.com/App-Builders-Gang/PrayerTimes/issues) terlebih dahulu, lalu [buka issue baru](https://github.com/App-Builders-Gang/PrayerTimes/issues/new/choose). Untuk obrolan umum yang tidak cocok sebagai issue, buka [Discussions](https://github.com/App-Builders-Gang/PrayerTimes/discussions).
+Jika Anda memiliki masalah atau permintaan, cari [Issue](https://github.com/abd3lraouf-studios/PrayerTimes/issues) terlebih dahulu, lalu [buka issue baru](https://github.com/abd3lraouf-studios/PrayerTimes/issues/new/choose). Untuk obrolan umum yang tidak cocok sebagai issue, buka [Discussions](https://github.com/abd3lraouf-studios/PrayerTimes/discussions).
 
 ## Dukung pengembangan
 

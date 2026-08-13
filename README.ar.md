@@ -20,11 +20,11 @@
 </p>
 
 <p align="center">
-    <a href="https://github.com/App-Builders-Gang/PrayerTimes/releases/latest"><img src="https://img.shields.io/github/v/release/App-Builders-Gang/PrayerTimes?color=%2300834a&label=latest" alt="آخر إصدار"></a>
-    <a href="https://github.com/App-Builders-Gang/PrayerTimes/releases/latest"><img src="https://img.shields.io/github/downloads/App-Builders-Gang/PrayerTimes/latest/total?color=%2300834a&label=downloads%20%28latest%29" alt="تنزيلات أحدث إصدار"></a>
-    <a href="https://github.com/App-Builders-Gang/PrayerTimes/releases"><img src="https://img.shields.io/github/downloads/App-Builders-Gang/PrayerTimes/total?color=%2300834a&label=downloads%20%28total%29" alt="إجمالي التنزيلات"></a>
-    <a href="https://github.com/App-Builders-Gang/PrayerTimes/issues"><img src="https://img.shields.io/github/issues/App-Builders-Gang/PrayerTimes?color=%2300834a" alt="القضايا المفتوحة"></a>
-    <a href="https://github.com/App-Builders-Gang/PrayerTimes/stargazers"><img src="https://img.shields.io/github/stars/App-Builders-Gang/PrayerTimes?color=%2300834a&style=flat" alt="النجوم"></a>
+    <a href="https://github.com/abd3lraouf-studios/PrayerTimes/releases/latest"><img src="https://img.shields.io/github/v/release/abd3lraouf-studios/PrayerTimes?color=%2300834a&label=latest" alt="آخر إصدار"></a>
+    <a href="https://github.com/abd3lraouf-studios/PrayerTimes/releases/latest"><img src="https://img.shields.io/github/downloads/abd3lraouf-studios/PrayerTimes/latest/total?color=%2300834a&label=downloads%20%28latest%29" alt="تنزيلات أحدث إصدار"></a>
+    <a href="https://github.com/abd3lraouf-studios/PrayerTimes/releases"><img src="https://img.shields.io/github/downloads/abd3lraouf-studios/PrayerTimes/total?color=%2300834a&label=downloads%20%28total%29" alt="إجمالي التنزيلات"></a>
+    <a href="https://github.com/abd3lraouf-studios/PrayerTimes/issues"><img src="https://img.shields.io/github/issues/abd3lraouf-studios/PrayerTimes?color=%2300834a" alt="القضايا المفتوحة"></a>
+    <a href="https://github.com/abd3lraouf-studios/PrayerTimes/stargazers"><img src="https://img.shields.io/github/stars/abd3lraouf-studios/PrayerTimes?color=%2300834a&style=flat" alt="النجوم"></a>
 </p>
 
 <p align="center">
@@ -60,12 +60,12 @@
 ### Homebrew
 
 ```sh
-brew install --cask app-builders-gang/tap/prayertimes
+brew install --cask abd3lraouf-studios/tap/prayertimes
 ```
 
 ### تنزيل مباشر
 
-نزّل أحدث ملف `.dmg` من [الإصدارات](https://github.com/App-Builders-Gang/PrayerTimes/releases/latest). إصدار Developer ID موقّع وموثّق من آبل ويتحدّث تلقائيًا عبر [Sparkle](https://sparkle-project.org).
+نزّل أحدث ملف `.dmg` من [الإصدارات](https://github.com/abd3lraouf-studios/PrayerTimes/releases/latest). إصدار Developer ID موقّع وموثّق من آبل ويتحدّث تلقائيًا عبر [Sparkle](https://sparkle-project.org).
 
 إذا منع macOS التشغيل في المرة الأولى:
 
@@ -93,12 +93,12 @@ xattr -r -d com.apple.quarantine /Applications/PrayerTimes.app
 
 ## ماذا يمكنك أن تفعل هنا
 
-- 🐛 [**القضايا**](https://github.com/App-Builders-Gang/PrayerTimes/issues) — أبلغ عن خطأ أو اطلب ميزة، أو [أنشئ قضية جديدة](https://github.com/App-Builders-Gang/PrayerTimes/issues/new/choose).
-- 💬 [**النقاشات**](https://github.com/App-Builders-Gang/PrayerTimes/discussions) — اطرح الأسئلة، شارك الأفكار، وتحدّث مع المستخدمين.
-- 📥 [**الإصدارات**](https://github.com/App-Builders-Gang/PrayerTimes/releases) — حمّل إصدارًا معينًا أو اطّلع على سجل التغييرات.
-- 📚 [**الويكي**](https://github.com/App-Builders-Gang/PrayerTimes/wiki) — أدلّة، أسئلة شائعة، ومعرفة مشتركة.
+- 🐛 [**القضايا**](https://github.com/abd3lraouf-studios/PrayerTimes/issues) — أبلغ عن خطأ أو اطلب ميزة، أو [أنشئ قضية جديدة](https://github.com/abd3lraouf-studios/PrayerTimes/issues/new/choose).
+- 💬 [**النقاشات**](https://github.com/abd3lraouf-studios/PrayerTimes/discussions) — اطرح الأسئلة، شارك الأفكار، وتحدّث مع المستخدمين.
+- 📥 [**الإصدارات**](https://github.com/abd3lraouf-studios/PrayerTimes/releases) — حمّل إصدارًا معينًا أو اطّلع على سجل التغييرات.
+- 📚 [**الويكي**](https://github.com/abd3lraouf-studios/PrayerTimes/wiki) — أدلّة، أسئلة شائعة، ومعرفة مشتركة.
 
-إذا واجهتك مشكلة أو لديك طلب، ابحث أولًا في [القضايا](https://github.com/App-Builders-Gang/PrayerTimes/issues)، ثم [أنشئ قضية جديدة](https://github.com/App-Builders-Gang/PrayerTimes/issues/new/choose). للنقاشات العامة، توجّه إلى [النقاشات](https://github.com/App-Builders-Gang/PrayerTimes/discussions).
+إذا واجهتك مشكلة أو لديك طلب، ابحث أولًا في [القضايا](https://github.com/abd3lraouf-studios/PrayerTimes/issues)، ثم [أنشئ قضية جديدة](https://github.com/abd3lraouf-studios/PrayerTimes/issues/new/choose). للنقاشات العامة، توجّه إلى [النقاشات](https://github.com/abd3lraouf-studios/PrayerTimes/discussions).
 
 ## ادعم التطوير
 
