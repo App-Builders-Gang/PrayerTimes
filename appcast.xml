@@ -147,6 +147,21 @@
       length="21313240"
       type="application/octet-stream" />
   </item>
+    <item>
+    <title>Version 3.0.1</title>
+    <sparkle:version>58</sparkle:version>
+    <sparkle:shortVersionString>3.0.1</sparkle:shortVersionString>
+    <sparkle:minimumSystemVersion>11.0</sparkle:minimumSystemVersion>
+    <pubDate>Thu, 13 Aug 2026 11:00:23 +0000</pubDate>
+    <description><![CDATA[<ul><li>chore: bump version to 3.0.1 (8fa8911)</li><li>fix(release): notarize the DMG itself, and stop the MAS pane promising updates (f7988f9)</li></ul>]]></description>
+    <enclosure url="https://github.com/abd3lraouf-studios/PrayerTimes/releases/download/v3.0.1/PrayerTimes-3.0.1.zip"
+      sparkle:version="58"
+      sparkle:shortVersionString="3.0.1"
+      sparkle:edSignature="ckohQblObgUHSrdnl4qp6m1ieQefqHoGvKW2DZh4i9ugmY97uokkFkzEYifW70xcoR0qtq09/fnZ/IqsoMFRCg=="
+      length="21313272"
+      type="application/octet-stream" />
+  </item>
+
 
 
 
