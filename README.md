@@ -28,14 +28,14 @@
 </p>
 
 <p align="center">
-    <img src="https://img.shields.io/badge/platform-macOS%2013%2B-informational.svg" alt="macOS 13+">
+    <img src="https://img.shields.io/badge/platform-macOS%2014%2B-informational.svg" alt="macOS 14+">
     <img src="https://img.shields.io/badge/arch-Apple%20Silicon%20%7C%20Intel-lightgrey.svg" alt="Apple Silicon & Intel">
     <img src="https://img.shields.io/badge/notarized-✓-success.svg" alt="Apple Notarized">
     <img src="https://img.shields.io/badge/sandboxed-✓-success.svg" alt="Sandboxed">
 </p>
 
 <p align="center">
-    <img src="art/en/screenshots.png" alt="PrayerTimes Pro screenshots — menu bar countdown, prayer times, Hijri calendar, settings" width="780">
+    <img src="art/en/screenshots.png" alt="PrayerTimes Pro screenshots — the welcome guide, the prayer timeline with countdown and streak, a full-screen prayer alert, and Settings" width="780">
 </p>
 
 ---
@@ -49,7 +49,7 @@
 
 ## Install
 
-**Requirements:** macOS 13 (Ventura) or later · Apple Silicon & Intel
+**Requirements:** macOS 14 (Sonoma) or later · Apple Silicon & Intel
 
 ### Mac App Store (recommended)
 
@@ -81,9 +81,21 @@ xattr -r -d com.apple.quarantine /Applications/PrayerTimes.app
 - **Auto or manual location** · per-prayer time adjustments to match your local mosque
 - **Hijri calendar** with adjustable date and Islamic event notifications (Ramadan, Eid al-Fitr, Eid al-Adha, Islamic New Year, Day of Ashura, and more)
 - **Ramadan mode**: Suhoor and Iftar notifications with pre-alerts
+- **Prayer log** — mark each prayer as you pray it, with a Fajr-anchored day rollover, streaks, and make-up (qada) tracking
+- **Sunnah & Nawāfil** tracking alongside the five obligatory prayers
+- **Qibla compass** pointing to the Kaaba from wherever you are
+- **Adhan library** — a catalogue of recordings from 28 countries, with a separate adhan for Fajr, quiet hours, snooze defaults, and per-prayer announcements
+- **Settings that find themselves** — a sidebar window with search across every pane
 - **Locale-aware numerals** (Arabic-Indic, Extended Arabic-Indic, Western)
 - **5 languages**: English, العربية, Bahasa Indonesia, فارسی, اردو — with full RTL support
-- **Light/dark mode** follows your system
+- **Light/dark mode** follows your system, with an appearance override and accent colour picker
+- **Accessible** — Dynamic Type, Increase Contrast and Reduce Motion respected app-wide
+
+## Free and Pro
+
+The **direct download** and the **Homebrew cask** ship every feature unlocked, free — there is no paywall in that build and nothing to buy.
+
+The **Mac App Store** build sells a **$5 one-time Pro unlock**, which covers the prayer log and streaks, the animated prayer scenes, and the full adhan library. Everything else is free there too.
 
 ## Privacy
 

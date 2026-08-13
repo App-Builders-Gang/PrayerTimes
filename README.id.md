@@ -28,7 +28,7 @@
 </p>
 
 <p align="center">
-    <img src="https://img.shields.io/badge/platform-macOS%2013%2B-informational.svg" alt="macOS 13+">
+    <img src="https://img.shields.io/badge/platform-macOS%2014%2B-informational.svg" alt="macOS 14+">
     <img src="https://img.shields.io/badge/arch-Apple%20Silicon%20%7C%20Intel-lightgrey.svg" alt="Apple Silicon & Intel">
     <img src="https://img.shields.io/badge/notarized-✓-success.svg" alt="Dinotarisasi Apple">
     <img src="https://img.shields.io/badge/sandboxed-✓-success.svg" alt="Sandboxed">
@@ -49,7 +49,7 @@
 
 ## Instalasi
 
-**Persyaratan:** macOS 13 (Ventura) atau lebih baru · Apple Silicon & Intel
+**Persyaratan:** macOS 14 (Sonoma) atau lebih baru · Apple Silicon & Intel
 
 ### Mac App Store (direkomendasikan)
 
@@ -81,9 +81,21 @@ xattr -r -d com.apple.quarantine /Applications/PrayerTimes.app
 - **Lokasi otomatis atau manual** · penyesuaian waktu per shalat untuk menyesuaikan masjid setempat
 - **Kalender Hijriah** dengan tanggal yang dapat disesuaikan dan notifikasi peristiwa Islam (Ramadan, Idul Fitri, Idul Adha, Tahun Baru Hijriah, Hari Asyura, dan lainnya)
 - **Mode Ramadan**: notifikasi Sahur dan Berbuka dengan peringatan dini
+- **Catatan shalat** — tandai setiap shalat saat Anda menunaikannya, dengan pergantian hari berpatokan Subuh, rentetan (streak), dan pelacakan qada
+- **Sunnah & Nawafil** di samping lima shalat wajib
+- **Kompas kiblat** yang mengarah ke Ka'bah dari mana pun Anda berada
+- **Pustaka adzan** — koleksi rekaman dari 28 negara, dengan adzan terpisah untuk Subuh, jam senyap, setelan tunda, dan pengumuman per shalat
+- **Pengaturan yang mudah ditemukan** — jendela bersidebar dengan pencarian lintas panel
 - **Numeral sesuai lokal** (Arab-Indic, Arab-Indic Diperluas, Barat)
 - **5 bahasa**: English, العربية, Bahasa Indonesia, فارسی, اردو — dengan dukungan RTL penuh
-- **Mode terang/gelap** mengikuti sistem Anda
+- **Mode terang/gelap** mengikuti sistem Anda, dengan penimpaan tampilan dan pemilih warna aksen
+- **Aksesibilitas** — Dynamic Type, Increase Contrast, dan Reduce Motion dihormati di seluruh aplikasi
+
+## Gratis dan Pro
+
+**Unduhan langsung** dan **cask Homebrew** hadir dengan semua fitur terbuka, gratis — tidak ada paywall di build tersebut dan tidak ada yang perlu dibeli.
+
+Build **Mac App Store** menjual **buka Pro sekali bayar seharga $5**, yang mencakup catatan shalat dan rentetan, pemandangan shalat beranimasi, serta pustaka adzan lengkap. Selebihnya gratis juga di sana.
 
 ## Privasi
 
