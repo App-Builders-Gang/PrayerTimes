@@ -1,5 +1,48 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
+  "$schema": "https://abd3lraouf.dev/schema/product-assets.schema.json",
+  "schema": {
+    "schemaVersion": "Major shape of this file. 3 adds $schema, schema (this guide) and downloads; 2 added theme and marketing; 1 is the bare product record.",
+    "$schema": "The published JSON Schema for this file, so editors validate the kit as you type.",
+    "schema": "This block: every field of assets.json explained. Structure comes from lib/kit-doc.ts in the site repo — edit structure there, prose here.",
+    "product.slug": "URL-safe identifier; the site route is /work/<slug>/ and the press kit /press/<slug>/.",
+    "product.name": "Display name, spelled exactly as press.naming requires.",
+    "product.category": "\"app\" or \"tool\" — sorts the card into the two landing groups.",
+    "product.headline.lead": "First half of the headline duet.",
+    "product.headline.lift": "The italic-serif half of the headline. Required.",
+    "product.headline.trail": "Optional closing half.",
+    "product.tagline": "One line under the headline on the card.",
+    "product.summary": "Longer one-liner for the product page hero and press kit.",
+    "product.platform": "Long-form platform string for the fact rows.",
+    "product.licence.label": "How the licence reads on the card.",
+    "product.licence.kind": "oss | free | paid — drives the label ink and JSON-LD offers.",
+    "product.licence.price": "Price line for the fact rows.",
+    "product.licence.pricePoint": "For kind \"paid\": the fragment that costs money, e.g. \"$5 Pro\".",
+    "product.distribution": "Where it is installed from, as a phrase.",
+    "product.openSource": "true = MIT (the footer counts these).",
+    "product.mono": "Fallback monogram for an icon-less kit; null when an icon exists.",
+    "links.repo": "The repository's real https:// URL — the fetch script resolves it directly.",
+    "links.store": "Optional store listing (Mac App Store). Shown as a fact row and the hero fallback badge.",
+    "links.website": "Optional product/site URL.",
+    "press.short": "One-paragraph boilerplate for the press kit.",
+    "press.long": "Full boilerplate; also closes the product page facts.",
+    "press.naming": "How to spell the product name in print.",
+    "theme.accent": "v2+. Per-app accent as a bare HSL triplet (\"H S% L%\"), contrast-gated at validation.",
+    "marketing.sections": "v2+. Ordered typed sections the product page renders through one renderer; kinds: features, steps, stats, showcase, table, faq, prose, terminal.",
+    "downloads": "v3+. 1-4 real ways to get the product. The FIRST entry must be url-based — it renders as the hero primary button. Absent = the hero falls back to the repository link.",
+    "downloads[].label": "Button or chip text.",
+    "downloads[].kind": "appstore | releases | dmg | zip | exe | appimage | website | repo (url-based) or brew | script (command-based).",
+    "downloads[].url": "https:// URL, required for url-based kinds.",
+    "downloads[].command": "Copyable install command, required for brew/script.",
+    "downloads[].note": "Optional caveat shown near the CTA.",
+    "assets": "Every art file, flat basenames only, with role, label, note and MEASURED width/height (fetch re-measures and throws on mismatch).",
+    "assets[].role": "icon-card | icon-press | icon-vector | screenshot | screenshot-localized | lockup | hero | diagram | benchmark | terminal. icon-* / screenshot / lockup are singletons; screenshot-localized may repeat, once per language.",
+    "assets[].file": "Flat basename sitting next to this assets.json.",
+    "assets[].label": "Caption shown in the press kit.",
+    "assets[].note": "Format note on the download badge, e.g. \"PNG\".",
+    "assets[].width": "Measured intrinsic width in px.",
+    "assets[].height": "Measured intrinsic height in px."
+  },
   "product": {
     "slug": "prayertimes",
     "name": "PrayerTimes Pro",
@@ -24,7 +67,7 @@
   },
   "links": {
     "repo": "https://github.com/abd3lraouf-studios/PrayerTimes",
-    "store": "https://apps.apple.com/app/id6763390896",
+    "store": "https://apps.apple.com/eg/app/prayer-times-pro-menubar/id6763390896?mt=12",
     "website": "https://abd3lraouf.dev/work/prayertimes/"
   },
   "press": {
@@ -79,51 +122,69 @@
         "caption": "The timeline with countdown and streak, a full-screen alert, and Settings."
       },
       {
+        "kind": "showcase",
+        "asset": "prayertimes-shot-ar.png",
+        "caption": "The Arabic build — the whole interface mirrors, not just the strings. Farsi, Urdu and Indonesian strips are in the press kit."
+      },
+      {
         "kind": "table",
         "heading": "Free and Pro",
         "columns": [
           "Included",
-          "Free",
-          "Pro"
+          "Direct & Homebrew",
+          "App Store free",
+          "App Store Pro"
         ],
         "rows": [
           [
             "Times, 18+ methods, Qibla",
+            "yes",
             "yes",
             "yes"
           ],
           [
             "Hijri calendar and events",
             "yes",
+            "yes",
             "yes"
           ],
           [
             "Prayer log, streaks, make-ups",
+            "yes",
             "—",
             "yes"
           ],
           [
             "Animated prayer scenes",
+            "yes",
             "—",
             "yes"
           ],
           [
             "Full adhan library",
+            "yes",
             "one",
             "28 countries"
           ],
           [
             "Price",
             "free",
+            "free",
             "$5, once"
           ]
         ],
-        "highlight": 2
+        "highlight": 1
       },
       {
         "kind": "prose",
         "heading": "Your location stays yours",
-        "body": "Every time is computed on the Mac itself. There is no server that learns where you are, no account, and nothing that stops working when the network does — the same machine that shows the times is the one that calculated them.\n\nThe App Store build sells a $5 one-time Pro unlock, which covers the prayer log and streaks, the animated prayer scenes, and the full adhan library. Everything else is free there too."
+        "body": "Every time is computed on the Mac itself. There is no server that learns where you are, no account, and nothing that stops working when the network does — the same machine that shows the times is the one that calculated them.\n\nTwo builds, one app. The direct .dmg and the Homebrew cask are signed and notarized, update themselves through Sparkle, and ship every feature unlocked and free. The Mac App Store build sells the same features as a $5 one-time Pro unlock — the prayer log with streaks and make-ups, the animated prayer scenes, and the full adhan library. Everything else is free there too."
+      },
+      {
+        "kind": "terminal",
+        "heading": "Install with Homebrew",
+        "command": "brew install --cask abd3lraouf-studios/tap/prayertimes",
+        "note": "The cask and the .dmg are the same build — every feature unlocked, free, updates via Sparkle. If macOS quarantines the download: xattr -r -d com.apple.quarantine /Applications/PrayerTimes.app"
       },
       {
         "kind": "faq",
@@ -144,11 +205,34 @@
           {
             "q": "Is it native?",
             "a": "Yes — a native menu-bar app for macOS, Apple Silicon and Intel, from the Mac App Store or a signed dmg."
+          },
+          {
+            "q": "Direct download, Homebrew, or the App Store?",
+            "a": "The App Store build is the recommended path if you want purchases and updates handled there. The direct .dmg and the Homebrew cask are the same app — signed, notarized, every feature unlocked for free, with updates delivered by Sparkle."
           }
         ]
       }
     ]
   },
+  "downloads": [
+    {
+      "label": "Download on the Mac App Store",
+      "kind": "appstore",
+      "url": "https://apps.apple.com/eg/app/prayer-times-pro-menubar/id6763390896?mt=12",
+      "note": "Recommended. Free to try; Pro features are a $5 one-time unlock."
+    },
+    {
+      "label": "Direct download",
+      "kind": "releases",
+      "url": "https://github.com/abd3lraouf-studios/PrayerTimes/releases/latest",
+      "note": "signed .dmg, notarized"
+    },
+    {
+      "label": "Homebrew",
+      "kind": "brew",
+      "command": "brew install --cask abd3lraouf-studios/tap/prayertimes"
+    }
+  ],
   "assets": [
     {
       "role": "icon-card",
@@ -181,6 +265,38 @@
       "note": "PNG",
       "width": 2400,
       "height": 2868
+    },
+    {
+      "role": "screenshot-localized",
+      "file": "prayertimes-shot-ar.png",
+      "label": "Screen set — Arabic (mirrored RTL)",
+      "note": "PNG",
+      "width": 2400,
+      "height": 2948
+    },
+    {
+      "role": "screenshot-localized",
+      "file": "prayertimes-shot-fa.png",
+      "label": "Screen set — Farsi",
+      "note": "PNG",
+      "width": 2400,
+      "height": 2828
+    },
+    {
+      "role": "screenshot-localized",
+      "file": "prayertimes-shot-id.png",
+      "label": "Screen set — Indonesian",
+      "note": "PNG",
+      "width": 2400,
+      "height": 2788
+    },
+    {
+      "role": "screenshot-localized",
+      "file": "prayertimes-shot-ur.png",
+      "label": "Screen set — Urdu",
+      "note": "PNG",
+      "width": 2400,
+      "height": 3028
     }
   ]
 }
