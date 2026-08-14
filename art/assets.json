@@ -1,5 +1,5 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "product": {
     "slug": "prayertimes",
     "name": "PrayerTimes Pro",
@@ -31,6 +31,123 @@
     "short": "PrayerTimes Pro keeps accurate prayer times a glance away in the macOS menu bar, with 18+ calculation methods, five languages and a prayer log, computed on the Mac itself.",
     "long": "PrayerTimes Pro puts accurate prayer times a glance away in the macOS menu bar. It supports more than eighteen calculation methods and five languages, and every time is computed on the Mac itself — so it stays right wherever you are, and keeps working with no connection. Beyond the times it keeps a prayer log with streaks and make-ups, a Qibla compass, a Hijri calendar, full-screen alerts and a library of adhan recordings. The signed, notarized .dmg and the Homebrew cask ship every feature unlocked and free; the Mac App Store build sells the same features as a $5 one-time Pro unlock.",
     "naming": "Written \"PrayerTimes Pro\" — one word for the product name, capital P and T, with \"Pro\" as a separate word. Never \"Prayer Times\" or \"Prayertimes\"."
+  },
+  "theme": {
+    "accent": "214 62% 45%"
+  },
+  "marketing": {
+    "sections": [
+      {
+        "kind": "features",
+        "heading": "Beyond the times",
+        "items": [
+          {
+            "icon": "moon",
+            "title": "18+ calculation methods",
+            "body": "Muslim World League, ISNA, Egyptian General Authority, Umm al-Qura, Diyanet, Karachi, Tehran, Dubai, Qatar, Singapore, Kuwait, Algeria, France, Germany, Malaysia and more, with per-prayer adjustments and custom angles."
+          },
+          {
+            "icon": "globe",
+            "title": "Five languages, full RTL",
+            "body": "English, Arabic, Indonesian, Farsi and Urdu. The interface mirrors properly, not just the strings."
+          },
+          {
+            "icon": "list-checks",
+            "title": "A prayer log that means something",
+            "body": "Mark each prayer as you pray it. Streaks, make-up (qada) tracking, and a day that rolls over at Fajr, not midnight."
+          },
+          {
+            "icon": "compass",
+            "title": "Qibla compass",
+            "body": "Points to the Kaaba from wherever you are, beside the times it belongs to."
+          },
+          {
+            "icon": "speaker-high",
+            "title": "Adhan library",
+            "body": "Recordings from 28 countries, a separate adhan for Fajr, quiet hours and per-prayer announcements."
+          },
+          {
+            "icon": "calendar-blank",
+            "title": "Hijri calendar",
+            "body": "Adjustable date, with notifications for Ramadan, both Eids, the Islamic New Year and Ashura."
+          }
+        ]
+      },
+      {
+        "kind": "showcase",
+        "asset": "prayertimes-shot.png",
+        "caption": "The timeline with countdown and streak, a full-screen alert, and Settings."
+      },
+      {
+        "kind": "table",
+        "heading": "Free and Pro",
+        "columns": [
+          "Included",
+          "Free",
+          "Pro"
+        ],
+        "rows": [
+          [
+            "Times, 18+ methods, Qibla",
+            "yes",
+            "yes"
+          ],
+          [
+            "Hijri calendar and events",
+            "yes",
+            "yes"
+          ],
+          [
+            "Prayer log, streaks, make-ups",
+            "—",
+            "yes"
+          ],
+          [
+            "Animated prayer scenes",
+            "—",
+            "yes"
+          ],
+          [
+            "Full adhan library",
+            "one",
+            "28 countries"
+          ],
+          [
+            "Price",
+            "free",
+            "$5, once"
+          ]
+        ],
+        "highlight": 2
+      },
+      {
+        "kind": "prose",
+        "heading": "Your location stays yours",
+        "body": "Every time is computed on the Mac itself. There is no server that learns where you are, no account, and nothing that stops working when the network does — the same machine that shows the times is the one that calculated them.\n\nThe App Store build sells a $5 one-time Pro unlock, which covers the prayer log and streaks, the animated prayer scenes, and the full adhan library. Everything else is free there too."
+      },
+      {
+        "kind": "faq",
+        "heading": "Questions",
+        "items": [
+          {
+            "q": "Does it need the network?",
+            "a": "No. Times are computed on the Mac, so the app keeps working entirely offline — travel included, since the location it uses is yours, locally."
+          },
+          {
+            "q": "Which calculation method should I pick?",
+            "a": "Whichever your locality follows. Eighteen-plus methods ship built in with custom angles on top; the common ones for each region are listed in the README."
+          },
+          {
+            "q": "What does Pro add?",
+            "a": "The prayer log with streaks and make-up tracking, the animated prayer scenes, and the full 28-country adhan library. It is a one-time $5 — no subscription."
+          },
+          {
+            "q": "Is it native?",
+            "a": "Yes — a native menu-bar app for macOS, Apple Silicon and Intel, from the Mac App Store or a signed dmg."
+          }
+        ]
+      }
+    ]
   },
   "assets": [
     {
