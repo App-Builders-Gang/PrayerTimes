@@ -52,7 +52,7 @@
       "lift": "prayer times",
       "trail": "in your menu bar"
     },
-    "tagline": "18+ methods, five languages, offline",
+    "tagline": "Eighteen methods, five languages, offline",
     "summary": "A menu-bar prayer times app for macOS. Eighteen calculation methods, five languages, a prayer log that tracks streaks and make-ups, and every time computed on your own Mac.",
     "platform": "macOS 14+",
     "licence": {
@@ -71,7 +71,7 @@
     "website": "https://abd3lraouf.dev/work/prayertimes/"
   },
   "press": {
-    "short": "PrayerTimes Pro keeps accurate prayer times a glance away in the macOS menu bar, with 18+ calculation methods, five languages and a prayer log, computed on the Mac itself. Free on the Mac App Store, with a $5 one-time Pro unlock.",
+    "short": "PrayerTimes Pro keeps accurate prayer times a glance away in the macOS menu bar, with eighteen calculation methods, five languages and a prayer log, computed on the Mac itself. Free on the Mac App Store, with a $5 one-time Pro unlock.",
     "long": "PrayerTimes Pro puts accurate prayer times a glance away in the macOS menu bar. It supports more than eighteen calculation methods and five languages, and every time is computed on the Mac itself — so it stays right wherever you are, and keeps working with no connection. Beyond the times it keeps a prayer log with streaks and make-ups, a Qibla compass, a Hijri calendar, full-screen alerts and a library of adhan recordings from twenty-eight countries. It is free on the Mac App Store; the prayer log, the animated prayer scenes and the full adhan library are a $5 one-time Pro unlock.",
     "naming": "Written \"PrayerTimes Pro\" — one word for the product name, capital P and T, with \"Pro\" as a separate word. Never \"Prayer Times\" or \"Prayertimes\"."
   },
@@ -87,7 +87,7 @@
         "items": [
           {
             "icon": "moon",
-            "title": "18+ calculation methods",
+            "title": "Eighteen calculation methods",
             "body": "Muslim World League, ISNA, Egyptian General Authority, Umm al-Qura, Diyanet, Karachi, Tehran, Dubai, Qatar, Singapore, Kuwait, Algeria, France, Germany, Malaysia and more, with per-prayer adjustments and custom angles."
           },
           {
@@ -121,8 +121,8 @@
         "kind": "stats",
         "items": [
           {
-            "value": "18+",
-            "label": "calculation methods, from Muslim World League to Umm al-Qura, JAKIM and Kemenag"
+            "value": "18",
+            "label": "calculation methods and more, from Muslim World League to Umm al-Qura, JAKIM and Kemenag"
           },
           {
             "value": "5",
@@ -135,14 +135,36 @@
         ]
       },
       {
-        "kind": "showcase",
-        "asset": "prayertimes-shot.png",
-        "caption": "The timeline with countdown and streak, a full-screen alert, and Settings."
-      },
-      {
-        "kind": "showcase",
-        "asset": "prayertimes-shot-ar.png",
-        "caption": "The Arabic build — the whole interface mirrors, not just the strings. Farsi, Urdu and Indonesian strips are in the press kit."
+        "kind": "gallery",
+        "heading": "The same app,",
+        "lift": "in five languages.",
+        "intro": "Five languages, and the three right-to-left ones mirror the whole interface rather than only the strings.",
+        "items": [
+          {
+            "asset": "prayertimes-lang-en.webp",
+            "label": "English"
+          },
+          {
+            "asset": "prayertimes-lang-ar.webp",
+            "label": "العربية",
+            "lang": "ar"
+          },
+          {
+            "asset": "prayertimes-lang-id.webp",
+            "label": "Bahasa Indonesia",
+            "lang": "id"
+          },
+          {
+            "asset": "prayertimes-lang-fa.webp",
+            "label": "فارسی",
+            "lang": "fa"
+          },
+          {
+            "asset": "prayertimes-lang-ur.webp",
+            "label": "اردو",
+            "lang": "ur"
+          }
+        ]
       },
       {
         "kind": "table",
@@ -155,7 +177,7 @@
         ],
         "rows": [
           [
-            "Prayer times, 18+ methods, Qibla compass",
+            "Prayer times, every calculation method, Qibla compass",
             "yes",
             "yes"
           ],
@@ -266,8 +288,16 @@
     },
     {
       "role": "screenshot",
+      "file": "prayertimes-app.png",
+      "label": "App screens — welcome and the prayer timeline",
+      "note": "PNG",
+      "width": 1200,
+      "height": 1030
+    },
+    {
+      "role": "hero",
       "file": "prayertimes-shot.png",
-      "label": "Screen set",
+      "label": "Screen set (marketing plate)",
       "note": "PNG",
       "width": 2400,
       "height": 2868
@@ -303,6 +333,46 @@
       "note": "PNG",
       "width": 2400,
       "height": 3028
+    },
+    {
+      "role": "gallery",
+      "file": "prayertimes-lang-en.webp",
+      "label": "Screen set — English (page derivative)",
+      "note": "WebP",
+      "width": 940,
+      "height": 1123
+    },
+    {
+      "role": "gallery",
+      "file": "prayertimes-lang-ar.webp",
+      "label": "Screen set — العربية (page derivative)",
+      "note": "WebP",
+      "width": 940,
+      "height": 1155
+    },
+    {
+      "role": "gallery",
+      "file": "prayertimes-lang-id.webp",
+      "label": "Screen set — Bahasa Indonesia (page derivative)",
+      "note": "WebP",
+      "width": 940,
+      "height": 1092
+    },
+    {
+      "role": "gallery",
+      "file": "prayertimes-lang-fa.webp",
+      "label": "Screen set — فارسی (page derivative)",
+      "note": "WebP",
+      "width": 940,
+      "height": 1108
+    },
+    {
+      "role": "gallery",
+      "file": "prayertimes-lang-ur.webp",
+      "label": "Screen set — اردو (page derivative)",
+      "note": "WebP",
+      "width": 940,
+      "height": 1186
     }
   ]
 }
