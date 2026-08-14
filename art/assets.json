@@ -28,7 +28,7 @@
     "press.long": "Full boilerplate; also closes the product page facts.",
     "press.naming": "How to spell the product name in print.",
     "theme.accent": "v2+. Per-app accent as a bare HSL triplet (\"H S% L%\"), contrast-gated at validation.",
-    "marketing.sections": "v2+. Ordered typed sections the product page renders through one renderer; kinds: features, steps, stats, showcase, table, faq, prose, terminal.",
+    "marketing.sections": "v2+. Ordered typed sections the product page renders through one renderer; kinds: features, steps, stats, showcase, table, faq, prose, terminal. Each may carry an optional \"lift\" beside its heading — the italic-serif half of the duet, one per heading, on the line carrying the promise. The page alternates its own grounds across this run; a kit chooses what to say, never where the bands fall.",
     "downloads": "v3+. 1-4 real ways to get the product. The FIRST entry must be url-based — it renders as the hero primary button. Absent = the hero falls back to the repository link.",
     "downloads[].label": "Button or chip text.",
     "downloads[].kind": "appstore | releases | dmg | zip | exe | appimage | website | repo (url-based) or brew | script (command-based).",
@@ -61,7 +61,7 @@
       "price": "Free · $5 Pro",
       "pricePoint": "$5 Pro"
     },
-    "distribution": "Mac App Store, signed .dmg, Homebrew",
+    "distribution": "Mac App Store",
     "openSource": false,
     "mono": null
   },
@@ -71,8 +71,8 @@
     "website": "https://abd3lraouf.dev/work/prayertimes/"
   },
   "press": {
-    "short": "PrayerTimes Pro keeps accurate prayer times a glance away in the macOS menu bar, with 18+ calculation methods, five languages and a prayer log, computed on the Mac itself.",
-    "long": "PrayerTimes Pro puts accurate prayer times a glance away in the macOS menu bar. It supports more than eighteen calculation methods and five languages, and every time is computed on the Mac itself — so it stays right wherever you are, and keeps working with no connection. Beyond the times it keeps a prayer log with streaks and make-ups, a Qibla compass, a Hijri calendar, full-screen alerts and a library of adhan recordings. The signed, notarized .dmg and the Homebrew cask ship every feature unlocked and free; the Mac App Store build sells the same features as a $5 one-time Pro unlock.",
+    "short": "PrayerTimes Pro keeps accurate prayer times a glance away in the macOS menu bar, with 18+ calculation methods, five languages and a prayer log, computed on the Mac itself. Free on the Mac App Store, with a $5 one-time Pro unlock.",
+    "long": "PrayerTimes Pro puts accurate prayer times a glance away in the macOS menu bar. It supports more than eighteen calculation methods and five languages, and every time is computed on the Mac itself — so it stays right wherever you are, and keeps working with no connection. Beyond the times it keeps a prayer log with streaks and make-ups, a Qibla compass, a Hijri calendar, full-screen alerts and a library of adhan recordings from twenty-eight countries. It is free on the Mac App Store; the prayer log, the animated prayer scenes and the full adhan library are a $5 one-time Pro unlock.",
     "naming": "Written \"PrayerTimes Pro\" — one word for the product name, capital P and T, with \"Pro\" as a separate word. Never \"Prayer Times\" or \"Prayertimes\"."
   },
   "theme": {
@@ -82,7 +82,8 @@
     "sections": [
       {
         "kind": "features",
-        "heading": "Beyond the times",
+        "lift": "the whole day around them.",
+        "heading": "Beyond the five times,",
         "items": [
           {
             "icon": "moon",
@@ -117,6 +118,23 @@
         ]
       },
       {
+        "kind": "stats",
+        "items": [
+          {
+            "value": "18+",
+            "label": "calculation methods, from Muslim World League to Umm al-Qura, JAKIM and Kemenag"
+          },
+          {
+            "value": "5",
+            "label": "interface languages — English, Arabic, Indonesian, Farsi and Urdu, mirrored for RTL"
+          },
+          {
+            "value": "28",
+            "label": "countries represented in the adhan library, with a separate recording for Fajr"
+          }
+        ]
+      },
+      {
         "kind": "showcase",
         "asset": "prayertimes-shot.png",
         "caption": "The timeline with countdown and streak, a full-screen alert, and Settings."
@@ -128,63 +146,62 @@
       },
       {
         "kind": "table",
-        "heading": "Free and Pro",
+        "lift": "five dollars once.",
+        "heading": "Free, and",
         "columns": [
           "Included",
-          "Direct & Homebrew",
-          "App Store free",
-          "App Store Pro"
+          "Free",
+          "Pro — $5 once"
         ],
         "rows": [
           [
-            "Times, 18+ methods, Qibla",
-            "yes",
-            "yes",
-            "yes"
-          ],
-          [
-            "Hijri calendar and events",
-            "yes",
+            "Prayer times, 18+ methods, Qibla compass",
             "yes",
             "yes"
           ],
           [
-            "Prayer log, streaks, make-ups",
+            "Menu-bar countdown and notifications",
             "yes",
+            "yes"
+          ],
+          [
+            "Full-screen prayer alerts",
+            "yes",
+            "yes"
+          ],
+          [
+            "Hijri calendar and Islamic event alerts",
+            "yes",
+            "yes"
+          ],
+          [
+            "Prayer log, streaks and make-ups",
             "—",
             "yes"
           ],
           [
             "Animated prayer scenes",
-            "yes",
             "—",
             "yes"
           ],
           [
-            "Full adhan library",
-            "yes",
-            "one",
+            "Adhan library",
+            "one recording",
             "28 countries"
           ],
           [
             "Price",
             "free",
-            "free",
             "$5, once"
           ]
         ],
-        "highlight": 1
+        "highlight": 2
       },
       {
         "kind": "prose",
-        "heading": "Your location stays yours",
-        "body": "Every time is computed on the Mac itself. There is no server that learns where you are, no account, and nothing that stops working when the network does — the same machine that shows the times is the one that calculated them.\n\nTwo builds, one app. The direct .dmg and the Homebrew cask are signed and notarized, update themselves through Sparkle, and ship every feature unlocked and free. The Mac App Store build sells the same features as a $5 one-time Pro unlock — the prayer log with streaks and make-ups, the animated prayer scenes, and the full adhan library. Everything else is free there too."
-      },
-      {
-        "kind": "terminal",
-        "heading": "Install with Homebrew",
-        "command": "brew install --cask abd3lraouf-studios/tap/prayertimes",
-        "note": "The cask and the .dmg are the same build — every feature unlocked, free, updates via Sparkle. If macOS quarantines the download: xattr -r -d com.apple.quarantine /Applications/PrayerTimes.app"
+        "lift": "and never your precise location.",
+        "heading": "No accounts, no analytics,",
+        "body": "Every prayer time is calculated on your Mac by the Adhan library, from your coordinates and the method you picked. There is no server that learns where you are, nothing to sign in to, and nothing that stops working when the network does.\n\nNo tracking, no analytics, no crash reporters, no advertising. To show a city name instead of raw coordinates the app rounds your position to about 1.1 km and asks Apple's geocoder for a name; sending that coarsened coordinate to OpenStreetMap Nominatim instead — which Indonesian, Persian and Urdu need to get the name written correctly — is off by default and opt-in under Settings. Typing a city into the picker sends the text you typed. Pro adhan recordings download on demand from the Internet Archive. That is the complete list of what leaves the machine."
       },
       {
         "kind": "faq",
@@ -192,23 +209,23 @@
         "items": [
           {
             "q": "Does it need the network?",
-            "a": "No. Times are computed on the Mac, so the app keeps working entirely offline — travel included, since the location it uses is yours, locally."
+            "a": "No. Times are computed on the Mac, so the app keeps working entirely offline — travel included. The network is used only for optional location search and for downloading Pro adhan recordings."
           },
           {
             "q": "Which calculation method should I pick?",
-            "a": "Whichever your locality follows. Eighteen-plus methods ship built in with custom angles on top; the common ones for each region are listed in the README."
+            "a": "Whichever your locality follows. Eighteen-plus methods ship built in — Muslim World League, ISNA, the Egyptian General Authority, Umm al-Qura, Diyanet, Kemenag, Karachi, Tehran and more — with per-prayer adjustments and custom angles on top if your mosque differs by a minute or two."
           },
           {
             "q": "What does Pro add?",
-            "a": "The prayer log with streaks and make-up tracking, the animated prayer scenes, and the full 28-country adhan library. It is a one-time $5 — no subscription."
+            "a": "The prayer log with streaks and make-up (qada) tracking, the animated prayer scenes, and the full 28-country adhan library. It is $5 once, not a subscription; everything else in the app is free."
           },
           {
-            "q": "Is it native?",
-            "a": "Yes — a native menu-bar app for macOS, Apple Silicon and Intel, from the Mac App Store or a signed dmg."
+            "q": "Is it native, and which Macs does it run on?",
+            "a": "It is a native macOS menu-bar app, sandboxed and notarized, running on macOS 14 Sonoma or later on both Apple Silicon and Intel."
           },
           {
-            "q": "Direct download, Homebrew, or the App Store?",
-            "a": "The App Store build is the recommended path if you want purchases and updates handled there. The direct .dmg and the Homebrew cask are the same app — signed, notarized, every feature unlocked for free, with updates delivered by Sparkle."
+            "q": "Does the interface really work in Arabic?",
+            "a": "Yes — the whole interface mirrors for right-to-left, not just the strings, and numerals follow your locale (Arabic-Indic, Extended Arabic-Indic or Western). Arabic, Farsi and Urdu screens are in the press kit."
           }
         ]
       }
@@ -219,18 +236,7 @@
       "label": "Download on the Mac App Store",
       "kind": "appstore",
       "url": "https://apps.apple.com/eg/app/prayer-times-pro-menubar/id6763390896?mt=12",
-      "note": "Recommended. Free to try; Pro features are a $5 one-time unlock."
-    },
-    {
-      "label": "Direct download",
-      "kind": "releases",
-      "url": "https://github.com/abd3lraouf-studios/PrayerTimes/releases/latest",
-      "note": "signed .dmg, notarized"
-    },
-    {
-      "label": "Homebrew",
-      "kind": "brew",
-      "command": "brew install --cask abd3lraouf-studios/tap/prayertimes"
+      "note": "Free to download. Pro is a $5 one-time unlock — there is no subscription."
     }
   ],
   "assets": [
