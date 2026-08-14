@@ -82,8 +82,8 @@
     "sections": [
       {
         "kind": "features",
-        "lift": "the whole day around them.",
         "heading": "Beyond the five times,",
+        "lift": "the whole day around them.",
         "items": [
           {
             "icon": "moon",
@@ -146,8 +146,8 @@
       },
       {
         "kind": "table",
-        "lift": "five dollars once.",
         "heading": "Free, and",
+        "lift": "five dollars once.",
         "columns": [
           "Included",
           "Free",
@@ -199,8 +199,8 @@
       },
       {
         "kind": "prose",
-        "lift": "and never your precise location.",
         "heading": "No accounts, no analytics,",
+        "lift": "and never your precise location.",
         "body": "Every prayer time is calculated on your Mac by the Adhan library, from your coordinates and the method you picked. There is no server that learns where you are, nothing to sign in to, and nothing that stops working when the network does.\n\nNo tracking, no analytics, no crash reporters, no advertising. To show a city name instead of raw coordinates the app rounds your position to about 1.1 km and asks Apple's geocoder for a name; sending that coarsened coordinate to OpenStreetMap Nominatim instead — which Indonesian, Persian and Urdu need to get the name written correctly — is off by default and opt-in under Settings. Typing a city into the picker sends the text you typed. Pro adhan recordings download on demand from the Internet Archive. That is the complete list of what leaves the machine."
       },
       {
