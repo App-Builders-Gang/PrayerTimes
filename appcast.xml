@@ -161,6 +161,21 @@
       length="21313272"
       type="application/octet-stream" />
   </item>
+    <item>
+    <title>Version 3.1.0</title>
+    <sparkle:version>61</sparkle:version>
+    <sparkle:shortVersionString>3.1.0</sparkle:shortVersionString>
+    <sparkle:minimumSystemVersion>11.0</sparkle:minimumSystemVersion>
+    <pubDate>Fri, 14 Aug 2026 20:16:21 +0000</pubDate>
+    <description><![CDATA[<ul><li>test: exclude foreign Islamic-event arms from the idempotence check (7da56c2)</li><li>test: wait for the Islamic-event arm to settle, not to start (775ffaa)</li><li>chore(screenshots): recapture after the language-label fix (941a7d4)</li><li>fix(l10n): name languages, not countries, in the language pickers (117e0d7)</li><li>chore: bump version to 3.1.0 (1058da8)</li><li>chore(screenshots): recapture for 3.1.0 (63e65fd)</li><li>fix: stop the panel running the height of the display (a15f22d)</li><li>docs: note the snooze fix, and record what the audit turned up (b7e68c5)</li><li>fix: what the release audit found (7409e1b)</li><li>docs: record the batch, and re-derive every number in the backlog (75c7579)</li><li>docs: put this batch's user-facing changes in the release notes (8128f07)</li><li>docs: correct the reverse-merge doc after the callback split (6f03d1c)</li><li>fix: let "Stop Sound" actually be clickable while the adhan is playing (ae04cff)</li><li>ci: make formatting drift a hard failure, and scope force_unwrapping to the app (34dc966)</li><li>style: run swiftformat over the tree, once (15e0309)</li><li>build: give build.sh a way to compile the App Store configuration (19062f6)</li><li>chore: keep the xcstrings migration tooling, not its output (edcfa1c)</li><li>build: let the compiler check the concurrency, completely (bc772e6)</li><li>chore: make the screenshot host render a first-launch app (10a04f4)</li><li>fix: stop asking for badge permission the app cannot use (a8f4b87)</li><li>refactor: read the selected language through LanguageManager (aa58143)</li><li>perf: stop allocating per frame in the prayer scenes (aebaa00)</li><li>feat(a11y): scale the rest of the text with Dynamic Type (5231313)</li><li>fix: make Home reachable on a short display, and clamp to the right one (d7e7f63)</li><li>fix: say what is wrong when Siri has no prayer times to give (a2adcc6)</li><li>test: put seams under the edges that had none, and test them (8771af9)</li><li>fix: stop answering with days-old prayer times after the location is lost (e49dc99)</li><li>refactor: lift the location search pipeline out of the view model (76d5518)</li><li>refactor: split the menu and the gradient out of the app delegate (8182314)</li><li>refactor: move SettingsKit to the feature that owns it (63c2459)</li><li>fix: notification banners finally carried their buttons, and the suite could finally be trusted (3dbcb63)</li><li>feat(about): say why Pro is active in the free build (d6758fb)</li><li>chore: bump version to 3.0.2, and write the release notes for it (492ba21)</li><li>fix: what the audit of this release found (60576c6)</li><li>chore: clean up, scale the onboarding icons, and make the backlog true again (0f6026f)</li><li>refactor: lift the pure logic out of the view model (b7c10e1)</li><li>refactor: split the two largest notification files; pin every default (16382d4)</li><li>test: make the notification schedule testable, and test it (e57ecd2)</li><li>build: compile the App Store variant, and let the compiler check the concurrency (d69e59a)</li><li>fix: alerts that fired at the wrong time, in the wrong place, or not at all (4eb10ff)</li><li>fix: three settings that silently did not take effect (614361c)</li><li>test: make the test suite tell the truth (73a4b46)</li><li>fix(fastlane): dedupe screenshots between upload and submit (4cada2c)</li><li>docs(metadata): the App Store listing said the app was open source (ed64501)</li><li>fix(fastlane): upload_metadata must overwrite screenshots, not append (57ff54a)</li></ul>]]></description>
+    <enclosure url="https://github.com/abd3lraouf-studios/PrayerTimes/releases/download/v3.1.0/PrayerTimes-3.1.0.zip"
+      sparkle:version="61"
+      sparkle:shortVersionString="3.1.0"
+      sparkle:edSignature="kZAA2XksqlgLEkOZBjvIykXUuN1vtHC27feYXSHFIHweJ7FPPSqMGw38zvvof5bJ65Rnn6UNY4Zvd9JhM62lCw=="
+      length="21421438"
+      type="application/octet-stream" />
+  </item>
+
 
 
 
