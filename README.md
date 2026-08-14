@@ -124,6 +124,10 @@ PrayerTimes Pro is built and maintained by one developer in their spare time. If
 
 Every contribution — no matter how small — helps keep the app actively developed and free of ads, trackers, and accounts.
 
+## Press & marketing assets
+
+App icons, the logo lockup, the screen set, and the canonical product copy — naming, descriptions, links — are indexed in [`art/assets.json`](art/assets.json), next to the image files it describes. The product page is [abd3lraouf.dev/work/prayertimes](https://abd3lraouf.dev/work/prayertimes/).
+
 ## Credits
 
 Built on top of these excellent projects:
