@@ -20,9 +20,6 @@
 </p>
 
 <p align="center">
-    <a href="https://github.com/abd3lraouf-studios/PrayerTimes/releases/latest"><img src="https://img.shields.io/github/v/release/abd3lraouf-studios/PrayerTimes?color=%2300834a&label=latest" alt="Latest release"></a>
-    <a href="https://github.com/abd3lraouf-studios/PrayerTimes/releases/latest"><img src="https://img.shields.io/github/downloads/abd3lraouf-studios/PrayerTimes/latest/total?color=%2300834a&label=downloads%20%28latest%29" alt="Latest downloads"></a>
-    <a href="https://github.com/abd3lraouf-studios/PrayerTimes/releases"><img src="https://img.shields.io/github/downloads/abd3lraouf-studios/PrayerTimes/total?color=%2300834a&label=downloads%20%28total%29" alt="Total downloads"></a>
     <a href="https://github.com/abd3lraouf-studios/PrayerTimes/issues"><img src="https://img.shields.io/github/issues/abd3lraouf-studios/PrayerTimes?color=%2300834a" alt="Open issues"></a>
     <a href="https://github.com/abd3lraouf-studios/PrayerTimes/stargazers"><img src="https://img.shields.io/github/stars/abd3lraouf-studios/PrayerTimes?color=%2300834a&style=flat" alt="Stars"></a>
 </p>
@@ -51,27 +48,11 @@
 
 **Requirements:** macOS 14 (Sonoma) or later · Apple Silicon & Intel
 
-### Mac App Store (recommended)
+PrayerTimes Pro is distributed exclusively through the Mac App Store.
 
 <a href="https://apps.apple.com/eg/app/prayer-times-pro-menubar/id6763390896?mt=12">
     <img src="https://developer.apple.com/app-store/marketing/guidelines/images/badge-download-on-the-mac-app-store.svg" alt="Download on the Mac App Store" height="48">
 </a>
-
-### Homebrew
-
-```sh
-brew install --cask abd3lraouf-studios/tap/prayertimes
-```
-
-### Direct download
-
-Download the latest `.dmg` from [Releases](https://github.com/abd3lraouf-studios/PrayerTimes/releases/latest). The Developer ID build is signed, notarized, and auto-updates via [Sparkle](https://sparkle-project.org).
-
-If macOS blocks the first launch:
-
-```sh
-xattr -r -d com.apple.quarantine /Applications/PrayerTimes.app
-```
 
 ## Features
 
@@ -93,21 +74,20 @@ xattr -r -d com.apple.quarantine /Applications/PrayerTimes.app
 
 ## Free and Pro
 
-The **direct download** and the **Homebrew cask** ship every feature unlocked, free — there is no paywall in that build and nothing to buy.
+PrayerTimes Pro is free to download, and the heart of it stays free for good: the menu bar countdown, every one of the 18+ calculation methods, per-prayer adjustments, notifications and full-screen alerts, the Hijri calendar and its event reminders, Ramadan mode, and the Qibla compass. That is a complete prayer times app, and it costs nothing.
 
-The **Mac App Store** build sells a **$5 one-time Pro unlock**, which covers the prayer log and streaks, the animated prayer scenes, and the full adhan library. Everything else is free there too.
+A **$5 one-time Pro unlock** adds the prayer log with streaks and qada tracking, the animated prayer scenes, and the full adhan library. One payment, no subscription, no account.
 
 ## Privacy
 
 No tracking. No analytics. No crash reporters. No advertising. No accounts. Prayer times are calculated entirely on your Mac, and your **precise** location is never transmitted.
 
-To show a city name rather than raw coordinates, the app rounds your position to ~1.1 km and asks Apple's geocoder for a name. Sending that coarsened coordinate to **OpenStreetMap Nominatim** instead — which Indonesian, Persian and Urdu need for a correctly-written name — is **off by default** and opt-in under Settings → Calculation & Location. Typing a city into the location picker sends the text you typed. Pro adhan clips download on demand from the Internet Archive, and Sparkle update checks run in the Developer ID build only. The Mac App Store build receives updates exclusively through Apple.
+To show a city name rather than raw coordinates, the app rounds your position to ~1.1 km and asks Apple's geocoder for a name. Sending that coarsened coordinate to **OpenStreetMap Nominatim** instead — which Indonesian, Persian and Urdu need for a correctly-written name — is **off by default** and opt-in under Settings → Calculation & Location. Typing a city into the location picker sends the text you typed. Pro adhan clips download on demand from the Internet Archive. Updates are delivered exclusively through the App Store.
 
 ## What you can do here
 
 - 🐛 [**Issues**](https://github.com/abd3lraouf-studios/PrayerTimes/issues) — report a bug or request a feature, or [create a new one](https://github.com/abd3lraouf-studios/PrayerTimes/issues/new/choose).
 - 💬 [**Discussions**](https://github.com/abd3lraouf-studios/PrayerTimes/discussions) — ask questions, share ideas, and chat with other users.
-- 📥 [**Releases**](https://github.com/abd3lraouf-studios/PrayerTimes/releases) — download a specific version or read the changelog.
 - 📚 [**Wiki**](https://github.com/abd3lraouf-studios/PrayerTimes/wiki) — guides, FAQ, and shared knowledge.
 
 If you have a problem or a request, search [Issues](https://github.com/abd3lraouf-studios/PrayerTimes/issues) first, then [open a new one](https://github.com/abd3lraouf-studios/PrayerTimes/issues/new/choose). For general chat that doesn't fit as an issue, head to [Discussions](https://github.com/abd3lraouf-studios/PrayerTimes/discussions).
@@ -135,9 +115,8 @@ Built on top of these excellent projects:
 - [Adhan](https://github.com/batoulapps/Adhan) — prayer time calculation
 - [FluidMenuBarExtra](https://github.com/lfroms/fluid-menu-bar-extra) — menu bar UI
 - [NavigationStack](https://github.com/indieSoftware/NavigationStack) — navigation
-- [Sparkle](https://sparkle-project.org) — auto-update framework (Developer ID build)
 - Inspired by [Sajda](https://github.com/ikoshura/Sajda)
 
 ## License
 
-PrayerTimes Pro is **closed source**. This repository hosts the public release artifacts, issues, and discussions only. The application is distributed under its own End User License Agreement — see the [Mac App Store listing](https://apps.apple.com/eg/app/prayer-times-pro-menubar/id6763390896?mt=12).
+PrayerTimes Pro is **closed source**. This repository hosts issues, discussions, and press assets only. The application is distributed under its own End User License Agreement — see the [Mac App Store listing](https://apps.apple.com/eg/app/prayer-times-pro-menubar/id6763390896?mt=12).

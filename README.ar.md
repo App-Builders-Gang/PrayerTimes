@@ -20,9 +20,6 @@
 </p>
 
 <p align="center">
-    <a href="https://github.com/abd3lraouf-studios/PrayerTimes/releases/latest"><img src="https://img.shields.io/github/v/release/abd3lraouf-studios/PrayerTimes?color=%2300834a&label=latest" alt="آخر إصدار"></a>
-    <a href="https://github.com/abd3lraouf-studios/PrayerTimes/releases/latest"><img src="https://img.shields.io/github/downloads/abd3lraouf-studios/PrayerTimes/latest/total?color=%2300834a&label=downloads%20%28latest%29" alt="تنزيلات أحدث إصدار"></a>
-    <a href="https://github.com/abd3lraouf-studios/PrayerTimes/releases"><img src="https://img.shields.io/github/downloads/abd3lraouf-studios/PrayerTimes/total?color=%2300834a&label=downloads%20%28total%29" alt="إجمالي التنزيلات"></a>
     <a href="https://github.com/abd3lraouf-studios/PrayerTimes/issues"><img src="https://img.shields.io/github/issues/abd3lraouf-studios/PrayerTimes?color=%2300834a" alt="القضايا المفتوحة"></a>
     <a href="https://github.com/abd3lraouf-studios/PrayerTimes/stargazers"><img src="https://img.shields.io/github/stars/abd3lraouf-studios/PrayerTimes?color=%2300834a&style=flat" alt="النجوم"></a>
 </p>
@@ -51,27 +48,11 @@
 
 **المتطلبات:** macOS 14 (Sonoma) أو أحدث · يدعم Apple Silicon و Intel
 
-### ماك آب ستور (موصى به)
+يُوزَّع أوقات الصلاة برو حصريًا عبر ماك آب ستور.
 
 <a href="https://apps.apple.com/eg/app/prayer-times-pro-menubar/id6763390896?mt=12">
     <img src="https://developer.apple.com/app-store/marketing/guidelines/images/badge-download-on-the-mac-app-store.svg" alt="حمّل من ماك آب ستور" height="48">
 </a>
-
-### Homebrew
-
-```sh
-brew install --cask abd3lraouf-studios/tap/prayertimes
-```
-
-### تنزيل مباشر
-
-نزّل أحدث ملف `.dmg` من [الإصدارات](https://github.com/abd3lraouf-studios/PrayerTimes/releases/latest). إصدار Developer ID موقّع وموثّق من آبل ويتحدّث تلقائيًا عبر [Sparkle](https://sparkle-project.org).
-
-إذا منع macOS التشغيل في المرة الأولى:
-
-```sh
-xattr -r -d com.apple.quarantine /Applications/PrayerTimes.app
-```
 
 ## المزايا
 
@@ -93,21 +74,20 @@ xattr -r -d com.apple.quarantine /Applications/PrayerTimes.app
 
 ## مجاني وبرو
 
-يأتي **التنزيل المباشر** و**حزمة Homebrew** بكل المزايا مفتوحة ومجانًا — لا جدار دفع في هذا الإصدار ولا شيء للشراء.
+تنزيل أوقات الصلاة برو مجاني، وجوهر التطبيق يبقى مجانيًا دائمًا: العدّ التنازلي في شريط القوائم، وكل طرق الحساب الثماني عشرة وأكثر، وتعديلات كل صلاة، والإشعارات والتنبيهات على كامل الشاشة، والتقويم الهجري وتذكيراته بالمناسبات، ووضع رمضان، وبوصلة القبلة. هذا تطبيق أوقات صلاة متكامل، ولا يكلّفك شيئًا.
 
-أما إصدار **ماك آب ستور** فيبيع **فتح برو لمرة واحدة مقابل 5 دولارات**، ويشمل سجل الصلوات وسلاسل المواظبة، والمشاهد المتحركة، ومكتبة الأذان الكاملة. وما عدا ذلك مجاني هناك أيضًا.
+ويضيف **فتح برو لمرة واحدة مقابل 5 دولارات** سجل الصلوات بسلاسل المواظبة وتتبّع القضاء، والمشاهد المتحركة، ومكتبة الأذان الكاملة. دفعة واحدة، بلا اشتراك وبلا حساب.
 
 ## الخصوصية
 
 لا تتبّع. لا تحليلات. لا تقارير أعطال. لا إعلانات. لا حسابات. تُحسب أوقات الصلاة بالكامل على جهازك، ولا يُرسَل موقعك **الدقيق** أبدًا.
 
-لعرض اسم المدينة بدل الإحداثيات، يُقرَّب موقعك إلى نحو 1.1 كم ويُطلب الاسم من خدمة تحديد المواقع لدى Apple. أما إرسال هذا الموقع المقرَّب إلى **OpenStreetMap Nominatim** — وهو ما تحتاجه الإندونيسية والفارسية والأردية للحصول على اسم مكتوب بشكل صحيح — فهو **معطَّل افتراضيًا** ويمكن تفعيله من الإعدادات ← الحساب والموقع. وعند كتابة اسم مدينة في منتقي الموقع يُرسَل النص الذي تكتبه فقط. تُنزَّل مقاطع أذان برو عند الطلب من Internet Archive، ويعمل التحقق من التحديثات عبر Sparkle في إصدار Developer ID فقط. أما إصدار ماك آب ستور فيتلقّى التحديثات من آبل حصرًا.
+لعرض اسم المدينة بدل الإحداثيات، يُقرَّب موقعك إلى نحو 1.1 كم ويُطلب الاسم من خدمة تحديد المواقع لدى Apple. أما إرسال هذا الموقع المقرَّب إلى **OpenStreetMap Nominatim** — وهو ما تحتاجه الإندونيسية والفارسية والأردية للحصول على اسم مكتوب بشكل صحيح — فهو **معطَّل افتراضيًا** ويمكن تفعيله من الإعدادات ← الحساب والموقع. وعند كتابة اسم مدينة في منتقي الموقع يُرسَل النص الذي تكتبه فقط. تُنزَّل مقاطع أذان برو عند الطلب من Internet Archive. وتصل التحديثات عبر آب ستور حصرًا.
 
 ## ماذا يمكنك أن تفعل هنا
 
 - 🐛 [**القضايا**](https://github.com/abd3lraouf-studios/PrayerTimes/issues) — أبلغ عن خطأ أو اطلب ميزة، أو [أنشئ قضية جديدة](https://github.com/abd3lraouf-studios/PrayerTimes/issues/new/choose).
 - 💬 [**النقاشات**](https://github.com/abd3lraouf-studios/PrayerTimes/discussions) — اطرح الأسئلة، شارك الأفكار، وتحدّث مع المستخدمين.
-- 📥 [**الإصدارات**](https://github.com/abd3lraouf-studios/PrayerTimes/releases) — حمّل إصدارًا معينًا أو اطّلع على سجل التغييرات.
 - 📚 [**الويكي**](https://github.com/abd3lraouf-studios/PrayerTimes/wiki) — أدلّة، أسئلة شائعة، ومعرفة مشتركة.
 
 إذا واجهتك مشكلة أو لديك طلب، ابحث أولًا في [القضايا](https://github.com/abd3lraouf-studios/PrayerTimes/issues)، ثم [أنشئ قضية جديدة](https://github.com/abd3lraouf-studios/PrayerTimes/issues/new/choose). للنقاشات العامة، توجّه إلى [النقاشات](https://github.com/abd3lraouf-studios/PrayerTimes/discussions).
@@ -131,9 +111,8 @@ xattr -r -d com.apple.quarantine /Applications/PrayerTimes.app
 - [Adhan](https://github.com/batoulapps/Adhan) — حساب أوقات الصلاة
 - [FluidMenuBarExtra](https://github.com/lfroms/fluid-menu-bar-extra) — واجهة شريط القوائم
 - [NavigationStack](https://github.com/indieSoftware/NavigationStack) — التنقّل
-- [Sparkle](https://sparkle-project.org) — إطار عمل التحديث التلقائي (لإصدار Developer ID)
 - مستلهَم من [سجدة](https://github.com/ikoshura/Sajda)
 
 ## الترخيص
 
-أوقات الصلاة برو **مغلق المصدر**. يستضيف هذا المستودع منتجات الإصدار العامة والقضايا والنقاشات فقط. يُوزَّع التطبيق وفق اتفاقية ترخيص المستخدم النهائي الخاصة به — انظر [قائمة ماك آب ستور](https://apps.apple.com/eg/app/prayer-times-pro-menubar/id6763390896?mt=12).
+أوقات الصلاة برو **مغلق المصدر**. يستضيف هذا المستودع القضايا والنقاشات والمواد الصحفية فقط. يُوزَّع التطبيق وفق اتفاقية ترخيص المستخدم النهائي الخاصة به — انظر [قائمة ماك آب ستور](https://apps.apple.com/eg/app/prayer-times-pro-menubar/id6763390896?mt=12).

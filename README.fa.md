@@ -20,9 +20,6 @@
 </p>
 
 <p align="center">
-    <a href="https://github.com/abd3lraouf-studios/PrayerTimes/releases/latest"><img src="https://img.shields.io/github/v/release/abd3lraouf-studios/PrayerTimes?color=%2300834a&label=latest" alt="آخرین نسخه"></a>
-    <a href="https://github.com/abd3lraouf-studios/PrayerTimes/releases/latest"><img src="https://img.shields.io/github/downloads/abd3lraouf-studios/PrayerTimes/latest/total?color=%2300834a&label=downloads%20%28latest%29" alt="دانلودهای آخرین نسخه"></a>
-    <a href="https://github.com/abd3lraouf-studios/PrayerTimes/releases"><img src="https://img.shields.io/github/downloads/abd3lraouf-studios/PrayerTimes/total?color=%2300834a&label=downloads%20%28total%29" alt="مجموع دانلودها"></a>
     <a href="https://github.com/abd3lraouf-studios/PrayerTimes/issues"><img src="https://img.shields.io/github/issues/abd3lraouf-studios/PrayerTimes?color=%2300834a" alt="مسائل باز"></a>
     <a href="https://github.com/abd3lraouf-studios/PrayerTimes/stargazers"><img src="https://img.shields.io/github/stars/abd3lraouf-studios/PrayerTimes?color=%2300834a&style=flat" alt="ستاره‌ها"></a>
 </p>
@@ -51,27 +48,11 @@
 
 **نیازمندی‌ها:** macOS 14 (Sonoma) یا بالاتر · Apple Silicon و Intel
 
-### Mac App Store (پیشنهادی)
+اوقات نماز پرو منحصراً از طریق Mac App Store توزیع می‌شود.
 
 <a href="https://apps.apple.com/eg/app/prayer-times-pro-menubar/id6763390896?mt=12">
     <img src="https://developer.apple.com/app-store/marketing/guidelines/images/badge-download-on-the-mac-app-store.svg" alt="دانلود از Mac App Store" height="48">
 </a>
-
-### Homebrew
-
-```sh
-brew install --cask abd3lraouf-studios/tap/prayertimes
-```
-
-### دانلود مستقیم
-
-آخرین فایل `.dmg` را از [انتشارها](https://github.com/abd3lraouf-studios/PrayerTimes/releases/latest) دانلود کنید. نسخهٔ Developer ID امضا، تأیید شده توسط اپل (notarized) و دارای به‌روزرسانی خودکار از طریق [Sparkle](https://sparkle-project.org) است.
-
-اگر macOS اجرا را در نخستین بار مسدود کرد:
-
-```sh
-xattr -r -d com.apple.quarantine /Applications/PrayerTimes.app
-```
 
 ## امکانات
 
@@ -93,21 +74,20 @@ xattr -r -d com.apple.quarantine /Applications/PrayerTimes.app
 
 ## رایگان و پرو
 
-**دانلود مستقیم** و **کسک Homebrew** با همهٔ امکانات باز و رایگان عرضه می‌شوند — در آن نسخه هیچ حصار پرداختی نیست و چیزی برای خریدن وجود ندارد.
+دانلود اوقات نماز پرو رایگان است و قلب برنامه برای همیشه رایگان می‌ماند: شمارش معکوس در نوار منو، هر ۱۸ روش محاسبه و بیشتر، تنظیمات جداگانهٔ هر نماز، اعلان‌ها و هشدارهای تمام‌صفحه، تقویم هجری و یادآوری رویدادهایش، حالت رمضان، و قطب‌نمای قبله. این یک برنامهٔ کامل اوقات نماز است و هیچ هزینه‌ای ندارد.
 
-نسخهٔ **مک اپ استور** یک **بازگشایی پروی ۵ دلاری، یک‌بار برای همیشه** می‌فروشد که دفتر نماز و زنجیرهٔ مداومت، صحنه‌های متحرک نماز، و کتابخانهٔ کامل اذان را دربر می‌گیرد. باقی امکانات آنجا هم رایگان است.
+**بازگشایی پروی ۵ دلاری، یک‌بار برای همیشه** دفتر نماز را با زنجیرهٔ مداومت و پیگیری قضا، صحنه‌های متحرک نماز، و کتابخانهٔ کامل اذان اضافه می‌کند. یک پرداخت، بدون اشتراک، بدون حساب کاربری.
 
 ## حریم خصوصی
 
 بدون ردیابی. بدون تحلیل. بدون گزارش‌گر کرش. بدون تبلیغات. بدون حساب کاربری. اوقات نماز کاملاً روی مک شما محاسبه می‌شود و موقعیت **دقیق** شما هرگز ارسال نمی‌شود.
 
-برای نمایش نام شهر به‌جای مختصات خام، موقعیت شما به حدود ۱٫۱ کیلومتر گرد می‌شود و نام از سرویس مکان‌یابی Apple گرفته می‌شود. ارسال همین مختصات گردشده به **OpenStreetMap Nominatim** — که اندونزیایی، فارسی و اردو برای نامی درست به آن نیاز دارند — **به‌صورت پیش‌فرض خاموش است** و از تنظیمات ← محاسبه و موقعیت فعال می‌شود. هنگام تایپ نام شهر در انتخابگر موقعیت، فقط متنی که می‌نویسید ارسال می‌شود. کلیپ‌های اذان نسخهٔ Pro در صورت نیاز از Internet Archive دانلود می‌شوند و بررسی به‌روزرسانی Sparkle تنها در نسخهٔ Developer ID اجرا می‌شود. نسخهٔ Mac App Store به‌روزرسانی‌ها را منحصراً از طریق اپل دریافت می‌کند.
+برای نمایش نام شهر به‌جای مختصات خام، موقعیت شما به حدود ۱٫۱ کیلومتر گرد می‌شود و نام از سرویس مکان‌یابی Apple گرفته می‌شود. ارسال همین مختصات گردشده به **OpenStreetMap Nominatim** — که اندونزیایی، فارسی و اردو برای نامی درست به آن نیاز دارند — **به‌صورت پیش‌فرض خاموش است** و از تنظیمات ← محاسبه و موقعیت فعال می‌شود. هنگام تایپ نام شهر در انتخابگر موقعیت، فقط متنی که می‌نویسید ارسال می‌شود. کلیپ‌های اذان نسخهٔ Pro در صورت نیاز از Internet Archive دانلود می‌شوند. به‌روزرسانی‌ها منحصراً از طریق App Store ارائه می‌شوند.
 
 ## این‌جا چه می‌توانید بکنید
 
 - 🐛 [**Issues**](https://github.com/abd3lraouf-studios/PrayerTimes/issues) — یک باگ گزارش کنید یا ویژگی درخواست بدهید، یا [مورد جدید بسازید](https://github.com/abd3lraouf-studios/PrayerTimes/issues/new/choose).
 - 💬 [**Discussions**](https://github.com/abd3lraouf-studios/PrayerTimes/discussions) — سؤال بپرسید، ایده به اشتراک بگذارید و با کاربران دیگر گفت‌وگو کنید.
-- 📥 [**Releases**](https://github.com/abd3lraouf-studios/PrayerTimes/releases) — نسخهٔ خاصی را دانلود کنید یا تغییرات را بخوانید.
 - 📚 [**Wiki**](https://github.com/abd3lraouf-studios/PrayerTimes/wiki) — راهنماها، پرسش‌های متداول و دانش مشترک.
 
 اگر مشکلی دارید یا درخواستی، ابتدا در [Issues](https://github.com/abd3lraouf-studios/PrayerTimes/issues) جست‌وجو کنید، سپس [مورد جدید باز کنید](https://github.com/abd3lraouf-studios/PrayerTimes/issues/new/choose). برای گفت‌وگوی عمومی به [Discussions](https://github.com/abd3lraouf-studios/PrayerTimes/discussions) بروید.
@@ -131,9 +111,8 @@ xattr -r -d com.apple.quarantine /Applications/PrayerTimes.app
 - [Adhan](https://github.com/batoulapps/Adhan) — محاسبهٔ اوقات نماز
 - [FluidMenuBarExtra](https://github.com/lfroms/fluid-menu-bar-extra) — رابط نوار منو
 - [NavigationStack](https://github.com/indieSoftware/NavigationStack) — ناوبری
-- [Sparkle](https://sparkle-project.org) — چارچوب به‌روزرسانی خودکار (نسخهٔ Developer ID)
 - الهام‌گرفته از [Sajda](https://github.com/ikoshura/Sajda)
 
 ## مجوز
 
-اوقات نماز پرو **متن‌بسته (closed source)** است. این مخزن فقط میزبان آرتیفکت‌های انتشار عمومی، Issues و Discussions است. برنامه تحت توافق‌نامهٔ مجوز کاربر نهایی خود توزیع می‌شود — به [فهرست Mac App Store](https://apps.apple.com/eg/app/prayer-times-pro-menubar/id6763390896?mt=12) مراجعه کنید.
+اوقات نماز پرو **متن‌بسته (closed source)** است. این مخزن فقط میزبان Issues، Discussions و مواد مطبوعاتی است. برنامه تحت توافق‌نامهٔ مجوز کاربر نهایی خود توزیع می‌شود — به [فهرست Mac App Store](https://apps.apple.com/eg/app/prayer-times-pro-menubar/id6763390896?mt=12) مراجعه کنید.

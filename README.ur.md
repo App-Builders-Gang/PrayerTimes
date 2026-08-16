@@ -20,9 +20,6 @@
 </p>
 
 <p align="center">
-    <a href="https://github.com/abd3lraouf-studios/PrayerTimes/releases/latest"><img src="https://img.shields.io/github/v/release/abd3lraouf-studios/PrayerTimes?color=%2300834a&label=latest" alt="تازہ ترین ریلیز"></a>
-    <a href="https://github.com/abd3lraouf-studios/PrayerTimes/releases/latest"><img src="https://img.shields.io/github/downloads/abd3lraouf-studios/PrayerTimes/latest/total?color=%2300834a&label=downloads%20%28latest%29" alt="تازہ ترین ڈاؤن لوڈ"></a>
-    <a href="https://github.com/abd3lraouf-studios/PrayerTimes/releases"><img src="https://img.shields.io/github/downloads/abd3lraouf-studios/PrayerTimes/total?color=%2300834a&label=downloads%20%28total%29" alt="کل ڈاؤن لوڈ"></a>
     <a href="https://github.com/abd3lraouf-studios/PrayerTimes/issues"><img src="https://img.shields.io/github/issues/abd3lraouf-studios/PrayerTimes?color=%2300834a" alt="کھلے مسائل"></a>
     <a href="https://github.com/abd3lraouf-studios/PrayerTimes/stargazers"><img src="https://img.shields.io/github/stars/abd3lraouf-studios/PrayerTimes?color=%2300834a&style=flat" alt="ستارے"></a>
 </p>
@@ -51,27 +48,11 @@
 
 **ضروریات:** macOS 14 (Sonoma) یا اس سے نیا · Apple Silicon اور Intel
 
-### Mac App Store (تجویز کردہ)
+نماز کے اوقات پرو خصوصی طور پر Mac App Store کے ذریعے تقسیم کی جاتی ہے۔
 
 <a href="https://apps.apple.com/eg/app/prayer-times-pro-menubar/id6763390896?mt=12">
     <img src="https://developer.apple.com/app-store/marketing/guidelines/images/badge-download-on-the-mac-app-store.svg" alt="Mac App Store سے ڈاؤن لوڈ کریں" height="48">
 </a>
-
-### Homebrew
-
-```sh
-brew install --cask abd3lraouf-studios/tap/prayertimes
-```
-
-### براہِ راست ڈاؤن لوڈ
-
-تازہ ترین `.dmg` فائل [Releases](https://github.com/abd3lraouf-studios/PrayerTimes/releases/latest) سے ڈاؤن لوڈ کریں۔ Developer ID والا بلڈ سائن شدہ، ایپل سے توثیق شدہ، اور [Sparkle](https://sparkle-project.org) کے ذریعے خودکار طور پر اپڈیٹ ہوتا ہے۔
-
-اگر macOS پہلی بار چلانے سے روکے:
-
-```sh
-xattr -r -d com.apple.quarantine /Applications/PrayerTimes.app
-```
 
 ## خصوصیات
 
@@ -93,21 +74,20 @@ xattr -r -d com.apple.quarantine /Applications/PrayerTimes.app
 
 ## مفت اور پرو
 
-**براہِ راست ڈاؤن لوڈ** اور **Homebrew cask** تمام خصوصیات کھلی اور مفت کے ساتھ آتے ہیں — اس بلڈ میں کوئی پے وال نہیں اور خریدنے کو کچھ نہیں۔
+نماز کے اوقات پرو ڈاؤن لوڈ کرنا مفت ہے، اور ایپ کا اصل حصہ ہمیشہ مفت رہے گا: مینو بار کا کاؤنٹ ڈاؤن، تمام 18+ حساب کے طریقے، فی نماز ایڈجسٹمنٹس، اطلاعات اور فل اسکرین الرٹس، ہجری کیلنڈر اور اس کی واقعاتی یاد دہانیاں، رمضان موڈ، اور قبلہ نما۔ یہ بذاتِ خود ایک مکمل نماز کے اوقات کی ایپ ہے، اور اس کی کوئی قیمت نہیں۔
 
-**میک ایپ اسٹور** بلڈ **5 ڈالر کا ایک بار کا پرو اَن لاک** فروخت کرتا ہے، جس میں نماز کا ریکارڈ اور تسلسل، متحرک نماز مناظر، اور مکمل اذان لائبریری شامل ہیں۔ باقی سب کچھ وہاں بھی مفت ہے۔
+**5 ڈالر کا ایک بار کا پرو اَن لاک** نماز کا ریکارڈ تسلسل اور قضا کی پیروی کے ساتھ، متحرک نماز مناظر، اور مکمل اذان لائبریری کا اضافہ کرتا ہے۔ ایک ادائیگی، کوئی سبسکرپشن نہیں، کوئی اکاؤنٹ نہیں۔
 
 ## رازداری
 
 کوئی ٹریکنگ نہیں۔ کوئی تجزیات نہیں۔ کوئی کریش رپورٹر نہیں۔ کوئی اشتہارات نہیں۔ کوئی اکاؤنٹ نہیں۔ نماز کے اوقات مکمل طور پر آپ کے میک پر شمار ہوتے ہیں، اور آپ کا **درست** مقام کبھی نہیں بھیجا جاتا۔
 
-خام کوآرڈینیٹس کے بجائے شہر کا نام دکھانے کے لیے ایپ آپ کی پوزیشن کو ~1.1 کلومیٹر تک گول کر کے Apple کے جیو کوڈر سے نام مانگتی ہے۔ اسی گول کیے گئے کوآرڈینیٹ کو **OpenStreetMap Nominatim** کو بھیجنا — جس کی ضرورت انڈونیشی، فارسی اور اردو کو درست املا والے نام کے لیے ہوتی ہے — **بطورِ طے شدہ بند ہے** اور ترتیبات ← حساب اور مقام سے فعال کیا جا سکتا ہے۔ مقام منتخب کرنے والے میں شہر لکھتے وقت صرف وہی متن بھیجا جاتا ہے جو آپ لکھتے ہیں۔ پرو اذان کلپس ضرورت کے مطابق Internet Archive سے ڈاؤن لوڈ ہوتے ہیں، اور Sparkle اپڈیٹ چیک صرف Developer ID بلڈ میں چلتا ہے۔ Mac App Store بلڈ کو اپڈیٹس صرف ایپل سے ملتی ہیں۔
+خام کوآرڈینیٹس کے بجائے شہر کا نام دکھانے کے لیے ایپ آپ کی پوزیشن کو ~1.1 کلومیٹر تک گول کر کے Apple کے جیو کوڈر سے نام مانگتی ہے۔ اسی گول کیے گئے کوآرڈینیٹ کو **OpenStreetMap Nominatim** کو بھیجنا — جس کی ضرورت انڈونیشی، فارسی اور اردو کو درست املا والے نام کے لیے ہوتی ہے — **بطورِ طے شدہ بند ہے** اور ترتیبات ← حساب اور مقام سے فعال کیا جا سکتا ہے۔ مقام منتخب کرنے والے میں شہر لکھتے وقت صرف وہی متن بھیجا جاتا ہے جو آپ لکھتے ہیں۔ پرو اذان کلپس ضرورت کے مطابق Internet Archive سے ڈاؤن لوڈ ہوتے ہیں۔ اپڈیٹس خصوصی طور پر App Store کے ذریعے فراہم کی جاتی ہیں۔
 
 ## یہاں آپ کیا کر سکتے ہیں
 
 - 🐛 [**Issues**](https://github.com/abd3lraouf-studios/PrayerTimes/issues) — بگ رپورٹ کریں یا فیچر کی درخواست کریں، یا [نیا بنائیں](https://github.com/abd3lraouf-studios/PrayerTimes/issues/new/choose)۔
 - 💬 [**Discussions**](https://github.com/abd3lraouf-studios/PrayerTimes/discussions) — سوالات پوچھیں، خیالات کا اشتراک کریں، اور دیگر صارفین سے بات چیت کریں۔
-- 📥 [**Releases**](https://github.com/abd3lraouf-studios/PrayerTimes/releases) — کوئی مخصوص ورژن ڈاؤن لوڈ کریں یا تبدیلیوں کی فہرست دیکھیں۔
 - 📚 [**Wiki**](https://github.com/abd3lraouf-studios/PrayerTimes/wiki) — گائیڈز، اکثر پوچھے گئے سوالات، اور مشترکہ معلومات۔
 
 اگر آپ کو مسئلہ ہو یا درخواست ہو، پہلے [Issues](https://github.com/abd3lraouf-studios/PrayerTimes/issues) میں تلاش کریں، پھر [نیا کھولیں](https://github.com/abd3lraouf-studios/PrayerTimes/issues/new/choose)۔ عمومی بات چیت کے لیے [Discussions](https://github.com/abd3lraouf-studios/PrayerTimes/discussions) پر جائیں۔
@@ -131,9 +111,8 @@ xattr -r -d com.apple.quarantine /Applications/PrayerTimes.app
 - [Adhan](https://github.com/batoulapps/Adhan) — نماز کے اوقات کا حساب
 - [FluidMenuBarExtra](https://github.com/lfroms/fluid-menu-bar-extra) — مینو بار UI
 - [NavigationStack](https://github.com/indieSoftware/NavigationStack) — نیویگیشن
-- [Sparkle](https://sparkle-project.org) — خودکار اپڈیٹ فریم ورک (Developer ID بلڈ)
 - [Sajda](https://github.com/ikoshura/Sajda) سے متاثر
 
 ## لائسنس
 
-نماز کے اوقات پرو **بند سورس (closed source)** ہے۔ یہ ریپوزٹری صرف عوامی ریلیز آرٹیفیکٹس، Issues اور Discussions کی میزبانی کرتی ہے۔ ایپلیکیشن اپنے End User License Agreement کے تحت تقسیم کی جاتی ہے — [Mac App Store لسٹنگ](https://apps.apple.com/eg/app/prayer-times-pro-menubar/id6763390896?mt=12) دیکھیں۔
+نماز کے اوقات پرو **بند سورس (closed source)** ہے۔ یہ ریپوزٹری صرف Issues، Discussions اور پریس مواد کی میزبانی کرتی ہے۔ ایپلیکیشن اپنے End User License Agreement کے تحت تقسیم کی جاتی ہے — [Mac App Store لسٹنگ](https://apps.apple.com/eg/app/prayer-times-pro-menubar/id6763390896?mt=12) دیکھیں۔

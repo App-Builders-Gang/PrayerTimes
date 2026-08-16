@@ -20,9 +20,6 @@
 </p>
 
 <p align="center">
-    <a href="https://github.com/abd3lraouf-studios/PrayerTimes/releases/latest"><img src="https://img.shields.io/github/v/release/abd3lraouf-studios/PrayerTimes?color=%2300834a&label=latest" alt="Rilis terbaru"></a>
-    <a href="https://github.com/abd3lraouf-studios/PrayerTimes/releases/latest"><img src="https://img.shields.io/github/downloads/abd3lraouf-studios/PrayerTimes/latest/total?color=%2300834a&label=downloads%20%28latest%29" alt="Unduhan rilis terbaru"></a>
-    <a href="https://github.com/abd3lraouf-studios/PrayerTimes/releases"><img src="https://img.shields.io/github/downloads/abd3lraouf-studios/PrayerTimes/total?color=%2300834a&label=downloads%20%28total%29" alt="Total unduhan"></a>
     <a href="https://github.com/abd3lraouf-studios/PrayerTimes/issues"><img src="https://img.shields.io/github/issues/abd3lraouf-studios/PrayerTimes?color=%2300834a" alt="Issue terbuka"></a>
     <a href="https://github.com/abd3lraouf-studios/PrayerTimes/stargazers"><img src="https://img.shields.io/github/stars/abd3lraouf-studios/PrayerTimes?color=%2300834a&style=flat" alt="Bintang"></a>
 </p>
@@ -51,27 +48,11 @@
 
 **Persyaratan:** macOS 14 (Sonoma) atau lebih baru · Apple Silicon & Intel
 
-### Mac App Store (direkomendasikan)
+PrayerTimes Pro didistribusikan secara eksklusif melalui Mac App Store.
 
 <a href="https://apps.apple.com/eg/app/prayer-times-pro-menubar/id6763390896?mt=12">
     <img src="https://developer.apple.com/app-store/marketing/guidelines/images/badge-download-on-the-mac-app-store.svg" alt="Unduh di Mac App Store" height="48">
 </a>
-
-### Homebrew
-
-```sh
-brew install --cask abd3lraouf-studios/tap/prayertimes
-```
-
-### Unduh langsung
-
-Unduh `.dmg` terbaru dari [Rilis](https://github.com/abd3lraouf-studios/PrayerTimes/releases/latest). Build Developer ID telah ditandatangani, dinotarisasi, dan otomatis diperbarui melalui [Sparkle](https://sparkle-project.org).
-
-Jika macOS memblokir pertama kali:
-
-```sh
-xattr -r -d com.apple.quarantine /Applications/PrayerTimes.app
-```
 
 ## Fitur
 
@@ -93,21 +74,20 @@ xattr -r -d com.apple.quarantine /Applications/PrayerTimes.app
 
 ## Gratis dan Pro
 
-**Unduhan langsung** dan **cask Homebrew** hadir dengan semua fitur terbuka, gratis — tidak ada paywall di build tersebut dan tidak ada yang perlu dibeli.
+PrayerTimes Pro gratis diunduh, dan inti aplikasinya tetap gratis selamanya: hitung mundur di menu bar, seluruh 18+ metode perhitungan, penyesuaian per shalat, notifikasi dan peringatan layar penuh, kalender Hijriah beserta pengingat peristiwanya, mode Ramadan, dan kompas kiblat. Itu sudah aplikasi waktu shalat yang lengkap, dan tidak memungut biaya apa pun.
 
-Build **Mac App Store** menjual **buka Pro sekali bayar seharga $5**, yang mencakup catatan shalat dan rentetan, pemandangan shalat beranimasi, serta pustaka adzan lengkap. Selebihnya gratis juga di sana.
+**Buka Pro sekali bayar seharga $5** menambahkan catatan shalat dengan rentetan dan pelacakan qada, pemandangan shalat beranimasi, serta pustaka adzan lengkap. Sekali bayar, tanpa langganan, tanpa akun.
 
 ## Privasi
 
 Tanpa pelacakan. Tanpa analitik. Tanpa pelapor crash. Tanpa iklan. Tanpa akun. Waktu salat dihitung sepenuhnya di Mac Anda, dan lokasi **presisi** Anda tidak pernah dikirim.
 
-Untuk menampilkan nama kota alih-alih koordinat mentah, aplikasi membulatkan posisi Anda ke ~1,1 km lalu meminta namanya ke geocoder Apple. Mengirim koordinat yang sudah dibulatkan itu ke **OpenStreetMap Nominatim** — yang dibutuhkan bahasa Indonesia, Persia, dan Urdu agar namanya tertulis benar — **nonaktif secara bawaan** dan dapat diaktifkan di Pengaturan → Perhitungan & Lokasi. Saat mengetik nama kota di pemilih lokasi, hanya teks yang Anda ketik yang dikirim. Klip adzan Pro diunduh sesuai permintaan dari Internet Archive, dan pemeriksaan pembaruan Sparkle hanya berjalan di build Developer ID. Build Mac App Store menerima pembaruan secara eksklusif melalui Apple.
+Untuk menampilkan nama kota alih-alih koordinat mentah, aplikasi membulatkan posisi Anda ke ~1,1 km lalu meminta namanya ke geocoder Apple. Mengirim koordinat yang sudah dibulatkan itu ke **OpenStreetMap Nominatim** — yang dibutuhkan bahasa Indonesia, Persia, dan Urdu agar namanya tertulis benar — **nonaktif secara bawaan** dan dapat diaktifkan di Pengaturan → Perhitungan & Lokasi. Saat mengetik nama kota di pemilih lokasi, hanya teks yang Anda ketik yang dikirim. Klip adzan Pro diunduh sesuai permintaan dari Internet Archive. Pembaruan dikirimkan secara eksklusif melalui App Store.
 
 ## Yang bisa Anda lakukan di sini
 
 - 🐛 [**Issue**](https://github.com/abd3lraouf-studios/PrayerTimes/issues) — laporkan bug atau minta fitur, atau [buat issue baru](https://github.com/abd3lraouf-studios/PrayerTimes/issues/new/choose).
 - 💬 [**Discussions**](https://github.com/abd3lraouf-studios/PrayerTimes/discussions) — ajukan pertanyaan, bagikan ide, dan ngobrol dengan pengguna lain.
-- 📥 [**Releases**](https://github.com/abd3lraouf-studios/PrayerTimes/releases) — unduh versi tertentu atau baca catatan perubahan.
 - 📚 [**Wiki**](https://github.com/abd3lraouf-studios/PrayerTimes/wiki) — panduan, FAQ, dan pengetahuan bersama.
 
 Jika Anda memiliki masalah atau permintaan, cari [Issue](https://github.com/abd3lraouf-studios/PrayerTimes/issues) terlebih dahulu, lalu [buka issue baru](https://github.com/abd3lraouf-studios/PrayerTimes/issues/new/choose). Untuk obrolan umum yang tidak cocok sebagai issue, buka [Discussions](https://github.com/abd3lraouf-studios/PrayerTimes/discussions).
@@ -131,9 +111,8 @@ Dibangun di atas proyek-proyek hebat ini:
 - [Adhan](https://github.com/batoulapps/Adhan) — perhitungan waktu shalat
 - [FluidMenuBarExtra](https://github.com/lfroms/fluid-menu-bar-extra) — UI menu bar
 - [NavigationStack](https://github.com/indieSoftware/NavigationStack) — navigasi
-- [Sparkle](https://sparkle-project.org) — kerangka pembaruan otomatis (build Developer ID)
 - Terinspirasi oleh [Sajda](https://github.com/ikoshura/Sajda)
 
 ## Lisensi
 
-PrayerTimes Pro **bersifat tertutup (closed source)**. Repositori ini hanya menampung artefak rilis publik, issue, dan diskusi. Aplikasi didistribusikan dengan Perjanjian Lisensi Pengguna Akhir-nya sendiri — lihat [daftar Mac App Store](https://apps.apple.com/eg/app/prayer-times-pro-menubar/id6763390896?mt=12).
+PrayerTimes Pro **bersifat tertutup (closed source)**. Repositori ini hanya menampung issue, diskusi, dan materi pers. Aplikasi didistribusikan dengan Perjanjian Lisensi Pengguna Akhir-nya sendiri — lihat [daftar Mac App Store](https://apps.apple.com/eg/app/prayer-times-pro-menubar/id6763390896?mt=12).
