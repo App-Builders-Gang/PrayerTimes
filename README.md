@@ -1,9 +1,10 @@
+<!-- BEGIN abd3lraouf-studios:hero -->
 <p align="center">
-    <strong>English</strong> | <a href="README.ar.md">العربية</a> | <a href="README.id.md">Indonesia</a> | <a href="README.fa.md">فارسی</a> | <a href="README.ur.md">اردو</a>
+    <strong>English</strong> | <a href="README.ar.md">العربية</a> | <a href="README.fa.md">فارسی</a> | <a href="README.id.md">Bahasa Indonesia</a> | <a href="README.ur.md">اردو</a>
 </p>
 
 <p align="center">
-    <img src="art/en/logo.png" alt="PrayerTimes Pro — Prayer Times for Mac" height="120">
+    <img src="art/en/logo.png" alt="PrayerTimes Pro" height="120">
 </p>
 
 <h1 align="center">PrayerTimes Pro</h1>
@@ -18,6 +19,11 @@
         <img src="https://developer.apple.com/app-store/marketing/guidelines/images/badge-download-on-the-mac-app-store.svg" alt="Download on the Mac App Store" height="56">
     </a>
 </p>
+
+<p align="center">
+    <a href="https://abd3lraouf.dev/projects/prayertimes/">abd3lraouf.dev/projects/prayertimes/</a>
+</p>
+<!-- END abd3lraouf-studios:hero -->
 
 <p align="center">
     <a href="https://github.com/abd3lraouf-studios/PrayerTimes/issues"><img src="https://img.shields.io/github/issues/abd3lraouf-studios/PrayerTimes?color=%2300834a" alt="Open issues"></a>
@@ -104,9 +110,16 @@ PrayerTimes Pro is built and maintained by one developer in their spare time. If
 
 Every contribution — no matter how small — helps keep the app actively developed and free of ads, trackers, and accounts.
 
+<!-- BEGIN abd3lraouf-studios:press -->
 ## Press & marketing assets
 
-App icons, the logo lockup, the screen set, and the canonical product copy — naming, descriptions, links — are indexed in [`art/assets.json`](art/assets.json), next to the image files it describes. The product page is [abd3lraouf.dev/work/prayertimes](https://abd3lraouf.dev/work/prayertimes/).
+PrayerTimes Pro keeps accurate prayer times a glance away in the macOS menu bar, with eighteen calculation methods, five languages and a prayer log, computed on the Mac itself. Free on the Mac App Store, with a $5 one-time Pro unlock.
+
+**Naming.** Written "PrayerTimes Pro" — one word for the product name, capital P and T, with "Pro" as a separate word. Never "Prayer Times" or "Prayertimes".
+
+The press kit — icons, screen art, boilerplate, the fact sheet and a downloadable
+archive — is at **[abd3lraouf.dev/press/prayertimes/](https://abd3lraouf.dev/press/prayertimes/)**.
+<!-- END abd3lraouf-studios:press -->
 
 ## Credits
 

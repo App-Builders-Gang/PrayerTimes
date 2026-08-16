@@ -1,5 +1,6 @@
+<!-- BEGIN abd3lraouf-studios:hero -->
 <p align="center">
-    <a href="README.md">English</a> | <a href="README.ar.md">العربية</a> | <a href="README.id.md">Indonesia</a> | <a href="README.fa.md">فارسی</a> | <strong>اردو</strong>
+    <a href="README.md">English</a> | <a href="README.ar.md">العربية</a> | <a href="README.fa.md">فارسی</a> | <a href="README.id.md">Bahasa Indonesia</a> | <strong>اردو</strong>
 </p>
 
 <p align="center">
@@ -8,7 +9,7 @@
 
 <h1 align="center">نماز کے اوقات پرو</h1>
 
-<p align="center">
+<p align="center" dir="rtl">
     <strong>آپ کے میک کے مینو بار میں رہنے والی ایک سادہ، رازداری کو اولیت دینے والی اسلامی نماز کے اوقات کی ایپ۔</strong><br>
     نماز کے اوقات کا آف لائن حساب · 18+ طریقے · 5 زبانیں · Apple Silicon اور Intel
 </p>
@@ -18,6 +19,11 @@
         <img src="https://developer.apple.com/app-store/marketing/guidelines/images/badge-download-on-the-mac-app-store.svg" alt="Mac App Store سے ڈاؤن لوڈ کریں" height="56">
     </a>
 </p>
+
+<p align="center">
+    <a href="https://abd3lraouf.dev/projects/prayertimes/">abd3lraouf.dev/projects/prayertimes/</a>
+</p>
+<!-- END abd3lraouf-studios:hero -->
 
 <p align="center">
     <a href="https://github.com/abd3lraouf-studios/PrayerTimes/issues"><img src="https://img.shields.io/github/issues/abd3lraouf-studios/PrayerTimes?color=%2300834a" alt="کھلے مسائل"></a>

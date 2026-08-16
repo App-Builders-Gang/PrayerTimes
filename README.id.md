@@ -1,5 +1,6 @@
+<!-- BEGIN abd3lraouf-studios:hero -->
 <p align="center">
-    <a href="README.md">English</a> | <a href="README.ar.md">العربية</a> | <strong>Indonesia</strong> | <a href="README.fa.md">فارسی</a> | <a href="README.ur.md">اردو</a>
+    <a href="README.md">English</a> | <a href="README.ar.md">العربية</a> | <a href="README.fa.md">فارسی</a> | <strong>Bahasa Indonesia</strong> | <a href="README.ur.md">اردو</a>
 </p>
 
 <p align="center">
@@ -18,6 +19,11 @@
         <img src="https://developer.apple.com/app-store/marketing/guidelines/images/badge-download-on-the-mac-app-store.svg" alt="Unduh di Mac App Store" height="56">
     </a>
 </p>
+
+<p align="center">
+    <a href="https://abd3lraouf.dev/projects/prayertimes/">abd3lraouf.dev/projects/prayertimes/</a>
+</p>
+<!-- END abd3lraouf-studios:hero -->
 
 <p align="center">
     <a href="https://github.com/abd3lraouf-studios/PrayerTimes/issues"><img src="https://img.shields.io/github/issues/abd3lraouf-studios/PrayerTimes?color=%2300834a" alt="Issue terbuka"></a>

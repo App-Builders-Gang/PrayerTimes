@@ -1,5 +1,6 @@
+<!-- BEGIN abd3lraouf-studios:hero -->
 <p align="center">
-    <a href="README.md">English</a> | <strong>العربية</strong> | <a href="README.id.md">Indonesia</a> | <a href="README.fa.md">فارسی</a> | <a href="README.ur.md">اردو</a>
+    <a href="README.md">English</a> | <strong>العربية</strong> | <a href="README.fa.md">فارسی</a> | <a href="README.id.md">Bahasa Indonesia</a> | <a href="README.ur.md">اردو</a>
 </p>
 
 <p align="center">
@@ -8,7 +9,7 @@
 
 <h1 align="center">أوقات الصلاة برو</h1>
 
-<p align="center">
+<p align="center" dir="rtl">
     <strong>تطبيق بسيط وخاص بالكامل لأوقات الصلاة الإسلامية يعيش في شريط القوائم على جهاز ماك.</strong><br>
     حساب أوقات الصلاة دون اتصال · أكثر من 18 طريقة · 5 لغات · يدعم Apple Silicon و Intel
 </p>
@@ -18,6 +19,11 @@
         <img src="https://developer.apple.com/app-store/marketing/guidelines/images/badge-download-on-the-mac-app-store.svg" alt="حمّل من ماك آب ستور" height="56">
     </a>
 </p>
+
+<p align="center">
+    <a href="https://abd3lraouf.dev/projects/prayertimes/">abd3lraouf.dev/projects/prayertimes/</a>
+</p>
+<!-- END abd3lraouf-studios:hero -->
 
 <p align="center">
     <a href="https://github.com/abd3lraouf-studios/PrayerTimes/issues"><img src="https://img.shields.io/github/issues/abd3lraouf-studios/PrayerTimes?color=%2300834a" alt="القضايا المفتوحة"></a>
