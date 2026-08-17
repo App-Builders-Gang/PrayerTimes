@@ -80,15 +80,15 @@ PrayerTimes Pro is distributed exclusively through the Mac App Store.
 
 ## Free and Pro
 
-PrayerTimes Pro is free to download, and the heart of it stays free for good: the menu bar countdown, every one of the 18+ calculation methods, per-prayer adjustments, notifications and full-screen alerts, the Hijri calendar and its event reminders, Ramadan mode, and the Qibla compass. That is a complete prayer times app, and it costs nothing.
+PrayerTimes Pro is free to download, and the heart of it stays free for good: the menu bar countdown, every one of the 18+ calculation methods, per-prayer adjustments, notifications and full-screen alerts, the Hijri calendar and its event reminders, Ramadan mode, the Qibla compass, the animated sky, and both light and dark themes. That is a complete prayer times app, and it costs nothing.
 
-A **$5 one-time Pro unlock** adds the prayer log with streaks and qada tracking, the animated prayer scenes, and the full adhan library. One payment, no subscription, no account.
+A **$12.99 one-time Pro unlock** adds the full adhan library — extra reciters, a separate Fajr call and volume control — spoken pre-prayer announcements, the prayer log with streaks and qada tracking, the sun-path arc and the Ramadan cannon, the Siri “Next Prayer” shortcut, and five further accent colours. One payment, no subscription, no account.
 
 ## Privacy
 
 No tracking. No analytics. No crash reporters. No advertising. No accounts. Prayer times are calculated entirely on your Mac, and your **precise** location is never transmitted.
 
-To show a city name rather than raw coordinates, the app rounds your position to ~1.1 km and asks Apple's geocoder for a name. Sending that coarsened coordinate to **OpenStreetMap Nominatim** instead — which Indonesian, Persian and Urdu need for a correctly-written name — is **off by default** and opt-in under Settings → Calculation & Location. Typing a city into the location picker sends the text you typed. Pro adhan clips download on demand from the Internet Archive. Updates are delivered exclusively through the App Store.
+To show a city name rather than raw coordinates, the app rounds your position to ~1.1 km and asks Apple's geocoder for a name. Sending that coarsened coordinate to **OpenStreetMap Nominatim** instead — which Indonesian, Persian and Urdu need for a correctly-written name — is **off by default** and opt-in under Settings → Prayer Times → Location. Typing a city into the location picker sends the text you typed. Pro adhan clips download on demand from the Internet Archive. Updates are delivered exclusively through the App Store.
 
 ## What you can do here
 
@@ -113,7 +113,7 @@ Every contribution — no matter how small — helps keep the app actively devel
 <!-- BEGIN abd3lraouf-studios:press -->
 ## Press & marketing assets
 
-PrayerTimes Pro keeps accurate prayer times a glance away in the macOS menu bar, with eighteen calculation methods, five languages and a prayer log, computed on the Mac itself. Free on the Mac App Store, with a $5 one-time Pro unlock.
+PrayerTimes Pro keeps accurate prayer times a glance away in the macOS menu bar, with eighteen calculation methods, five languages and a prayer log, computed on the Mac itself. Free on the Mac App Store, with a $12.99 one-time Pro unlock.
 
 **Naming.** Written "PrayerTimes Pro" — one word for the product name, capital P and T, with "Pro" as a separate word. Never "Prayer Times" or "Prayertimes".
 
