@@ -45,7 +45,7 @@
 
 ## Why PrayerTimes Pro?
 
-- **Completely private** — no tracking, no analytics, no accounts. Prayer times are calculated on your Mac, and your precise location is never transmitted.
+- **Private by default** — no accounts, and nothing that follows you across apps or the web. Prayer times are calculated on your Mac, and your precise location is never transmitted. Anonymous diagnostics can be switched off under Settings → General → Diagnostics.
 - **Designed for the menu bar** — always visible, never in the way. Countdown, exact time, compact, or icon-only.
 - **Accurate worldwide** — 18+ calculation methods, per-prayer adjustments, custom angles.
 - **Offline-first** — calculations happen on-device. Network is only used for optional location search.
@@ -82,11 +82,11 @@ PrayerTimes Pro is distributed exclusively through the Mac App Store.
 
 PrayerTimes Pro is free to download, and the heart of it stays free for good: the menu bar countdown, every one of the 18+ calculation methods, per-prayer adjustments, notifications and full-screen alerts, the Hijri calendar and its event reminders, Ramadan mode, the Qibla compass, the animated sky, and both light and dark themes. That is a complete prayer times app, and it costs nothing.
 
-A **$12.99 one-time Pro unlock** adds the full adhan library — extra reciters, a separate Fajr call and volume control — spoken pre-prayer announcements, the prayer log with streaks and qada tracking, the sun-path arc and the Ramadan cannon, the Siri “Next Prayer” shortcut, and five further accent colours. One payment, no subscription, no account.
+A **$4.99 one-time Pro unlock** adds the full adhan library — extra reciters, a separate Fajr call and volume control — spoken pre-prayer announcements, the prayer log with streaks and qada tracking, the sun-path arc and the Ramadan cannon, the Siri “Next Prayer” shortcut, and five further accent colours. One payment, no subscription, no account.
 
 ## Privacy
 
-No tracking. No analytics. No crash reporters. No advertising. No accounts. Prayer times are calculated entirely on your Mac, and your **precise** location is never transmitted.
+No advertising, no accounts, and nothing that tracks you across apps or the web. Prayer times are calculated entirely on your Mac, and your **precise** location is never transmitted. What does leave the Mac: anonymous usage counts from both builds, and anonymous crash reports from the direct download — never your location, your prayer log or your licence key, and all of it off in one tap under Settings → General → Diagnostics.
 
 To show a city name rather than raw coordinates, the app rounds your position to ~1.1 km and asks Apple's geocoder for a name. Sending that coarsened coordinate to **OpenStreetMap Nominatim** instead — which Indonesian, Persian and Urdu need for a correctly-written name — is **off by default** and opt-in under Settings → Prayer Times → Location. Typing a city into the location picker sends the text you typed. Pro adhan clips download on demand from the Internet Archive. Updates are delivered exclusively through the App Store.
 
@@ -113,7 +113,7 @@ Every contribution — no matter how small — helps keep the app actively devel
 <!-- BEGIN abd3lraouf-studios:press -->
 ## Press & marketing assets
 
-PrayerTimes Pro keeps accurate prayer times a glance away in the macOS menu bar, with eighteen calculation methods, five languages and a prayer log, computed on the Mac itself. Free on the Mac App Store, with a $12.99 one-time Pro unlock.
+PrayerTimes Pro keeps accurate prayer times a glance away in the macOS menu bar, with eighteen calculation methods, five languages and a prayer log, computed on the Mac itself. Free on the Mac App Store, with a $4.99 one-time Pro unlock.
 
 **Naming.** Written "PrayerTimes Pro" — one word for the product name, capital P and T, with "Pro" as a separate word. Never "Prayer Times" or "Prayertimes".
 
