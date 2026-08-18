@@ -11,7 +11,7 @@
 
 <p align="center">
     <strong>Aplikasi waktu shalat minimalis yang mengutamakan privasi, tinggal di menu bar Mac Anda.</strong><br>
-    Perhitungan waktu salat offline · 18+ metode · 5 bahasa · Apple Silicon & Intel
+    Perhitungan waktu salat offline · 26 metode · 5 bahasa · Apple Silicon & Intel
 </p>
 
 <p align="center">
@@ -47,7 +47,7 @@
 
 - **Privat secara bawaan** — tanpa akun, dan tanpa apa pun yang mengikuti Anda lintas aplikasi atau web. Waktu salat dihitung di Mac Anda, dan lokasi presisi Anda tidak pernah dikirim. Diagnostik anonim dapat dimatikan di Pengaturan → Umum → Diagnostik.
 - **Dirancang untuk menu bar** — selalu terlihat, tidak pernah mengganggu. Hitung mundur, waktu pasti, ringkas, atau hanya ikon.
-- **Akurat di seluruh dunia** — 18+ metode perhitungan, penyesuaian per shalat, sudut khusus.
+- **Akurat di seluruh dunia** — 26 metode perhitungan, penyesuaian per shalat, sudut khusus.
 - **Offline-first** — perhitungan terjadi di perangkat. Jaringan hanya digunakan untuk pencarian lokasi opsional.
 
 ## Instalasi
@@ -64,7 +64,7 @@ PrayerTimes Pro didistribusikan secara eksklusif melalui Mac App Store.
 
 - **Hitung mundur** di menu bar, waktu pasti, tampilan ringkas, atau hanya ikon
 - **Notifikasi** sebelum dan saat waktu shalat, dengan opsi peringatan layar penuh
-- **18+ metode perhitungan**: Muslim World League (MWL), ISNA, Otoritas Umum Mesir, Umm al-Qura (Makkah), Diyanet (Turki), Kemenag (Indonesia), Karachi, Tehran, Dubai, Qatar, Singapura, Kuwait, Aljazair, Prancis, Jerman, Malaysia (JAKIM), dan lainnya
+- **26 metode perhitungan**: Muslim World League (MWL), ISNA, Otoritas Umum Mesir, Umm al-Qura (Makkah), Diyanet (Turki), Kemenag (Indonesia), Karachi, Tehran, Dubai, Qatar, Singapura, Kuwait, Aljazair, Prancis, Jerman, Malaysia (JAKIM), dan lainnya
 - **Lokasi otomatis atau manual** · penyesuaian waktu per shalat untuk menyesuaikan masjid setempat
 - **Kalender Hijriah** dengan tanggal yang dapat disesuaikan dan notifikasi peristiwa Islam (Ramadan, Idul Fitri, Idul Adha, Tahun Baru Hijriah, Hari Asyura, dan lainnya)
 - **Mode Ramadan**: notifikasi Sahur dan Berbuka dengan peringatan dini
@@ -80,7 +80,7 @@ PrayerTimes Pro didistribusikan secara eksklusif melalui Mac App Store.
 
 ## Gratis dan Pro
 
-PrayerTimes Pro gratis diunduh, dan inti aplikasinya tetap gratis selamanya: hitung mundur di menu bar, seluruh 18+ metode perhitungan, penyesuaian per shalat, notifikasi dan peringatan layar penuh, kalender Hijriah beserta pengingat peristiwanya, mode Ramadan, kompas kiblat, langit beranimasi, serta tema terang dan gelap. Itu sudah aplikasi waktu shalat yang lengkap, dan tidak memungut biaya apa pun.
+PrayerTimes Pro gratis diunduh, dan inti aplikasinya tetap gratis selamanya: hitung mundur di menu bar, seluruh 26 metode perhitungan, penyesuaian per shalat, notifikasi dan peringatan layar penuh, kalender Hijriah beserta pengingat peristiwanya, mode Ramadan, kompas kiblat, langit beranimasi, serta tema terang dan gelap. Itu sudah aplikasi waktu shalat yang lengkap, dan tidak memungut biaya apa pun.
 
 **Buka Pro sekali bayar seharga $4,99** menambahkan pustaka adzan lengkap — muazin tambahan, adzan Subuh terpisah, dan pengaturan volume — pengumuman lisan sebelum shalat, catatan shalat dengan rentetan dan pelacakan qada, busur lintasan matahari dan meriam Ramadan, pintasan Siri “Shalat Berikutnya”, serta lima warna aksen lainnya. Sekali bayar, tanpa langganan, tanpa akun.
 
