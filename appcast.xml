@@ -21,6 +21,21 @@
       length="21820519"
       type="application/octet-stream" />
   </item>
+    <item>
+    <title>Version 4.0.0</title>
+    <sparkle:version>69</sparkle:version>
+    <sparkle:shortVersionString>4.0.0</sparkle:shortVersionString>
+    <sparkle:minimumSystemVersion>11.0</sparkle:minimumSystemVersion>
+    <pubDate>Sat, 22 Aug 2026 07:46:47 +0000</pubDate>
+    <description><![CDATA[<ul><li><strong>PrayerTimes Pro is three things now</strong> — the living sky behind your countdown, every adhan reciter, and your streaks and qada. In the same pass the Siri "Next Prayer" shortcut, the adhan's volume and the pre-prayer announcement timings became free for everyone. <strong>Nothing you were already using has been taken away</strong></li><li><strong>The direct download stands alongside the Mac App Store again</strong> — the same app at the same price on either, so the channel is yours to pick</li><li><strong>Bring your own muezzin</strong> — use a recording you already love, give each prayer its own reciter, and trim it to begin exactly where you want</li><li><strong>A prayer-times widget</strong> for your desktop and Notification Centre</li><li><strong>Your prayer log follows you between Macs</strong> through your own iCloud, with an export, a year in review, and an ambient clock for a second screen. Your preferences follow you too; what belongs to one machine stays on it</li><li><strong>A desert that moves with the day</strong> behind the countdown — seven hours of light, drawn for this release — or your own photograph there instead</li><li><strong>See how often you prayed on time</strong>, alongside the streak calendar and the qada ledger</li><li><strong>Today's Prayer Times</strong> is available to Shortcuts, so you can build a morning routine around it</li><li>Alerts, spoken announcements and the adhan each keep the sound you chose for them, and quiet hours are one dial</li><li>A call-to-prayer recording that arrives damaged is discarded rather than kept, and a bundled adhan plays in its place</li><li>Your licence key no longer lingers in your clipboard history after you copy it</li><li><strong>One version number on both channels.</strong> This is 3.3.0's work under a round number: the Mac App Store and the direct download now ship the same version, so what you are running is the same thing wherever you got it</li></ul>]]></description>
+    <enclosure url="https://github.com/abd3lraouf-studios/PrayerTimes/releases/download/v4.0.0/PrayerTimes-4.0.0.zip"
+      sparkle:version="69"
+      sparkle:shortVersionString="4.0.0"
+      sparkle:edSignature="yVcZvWglRkV295VXzr5AZLB2H8vA7yGG3HZXH+arKrXeBG+vYZgdKaUfk+tk8dzf2lANfR376K4ISW/q4xGyDQ=="
+      length="21821740"
+      type="application/octet-stream" />
+  </item>
+
 
 
     
