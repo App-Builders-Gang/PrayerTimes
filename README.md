@@ -106,7 +106,7 @@ One payment, no subscription, no account. Bought on the App Store it stays with 
 
 ## Privacy
 
-No advertising, no accounts, and nothing that tracks you across apps or the web. Prayer times are calculated entirely on your Mac, and your **precise** location is never transmitted. What does leave the Mac: anonymous usage counts — never your location or your prayer log, and all of it off in one tap under Settings → General → Diagnostics.
+No advertising, no accounts, and nothing that tracks you across apps or the web. Prayer times are calculated entirely on your Mac, and your **precise** location is never transmitted. What does leave the Mac: anonymous usage counts — never your location or your prayer log, and all of it off in one tap under Settings → General → Diagnostics. If you switch on iCloud sync, your prayer log and preferences also travel through **your own** iCloud to your other Macs — never through a server of ours. It is off until you turn it on.
 
 To show a city name rather than raw coordinates, the app rounds your position to ~1.1 km and asks Apple's geocoder for a name. Sending that coarsened coordinate to **OpenStreetMap Nominatim** instead — which Indonesian, Persian and Urdu need for a correctly-written name — is **off by default** and opt-in under Settings → Prayer Times → Location. Typing a city into the location picker sends the text you typed. Pro adhan clips download on demand from the Internet Archive. App Store builds are updated through the App Store; the direct build checks for its own updates.
 

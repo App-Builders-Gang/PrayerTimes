@@ -106,7 +106,7 @@ Sekali bayar, tanpa langganan, tanpa akun. Dibeli di App Store, ia melekat pada 
 
 ## Privasi
 
-Tanpa iklan, tanpa akun, dan tanpa apa pun yang melacak Anda lintas aplikasi atau web. Waktu salat dihitung sepenuhnya di Mac Anda, dan lokasi **presisi** Anda tidak pernah dikirim. Yang benar-benar dikirim: hitungan penggunaan anonim — tidak pernah lokasi Anda atau catatan salat Anda, dan semuanya dapat dimatikan dengan satu ketukan di Pengaturan → Umum → Diagnostik.
+Tanpa iklan, tanpa akun, dan tanpa apa pun yang melacak Anda lintas aplikasi atau web. Waktu salat dihitung sepenuhnya di Mac Anda, dan lokasi **presisi** Anda tidak pernah dikirim. Yang benar-benar dikirim: hitungan penggunaan anonim — tidak pernah lokasi Anda atau catatan salat Anda, dan semuanya dapat dimatikan dengan satu ketukan di Pengaturan → Umum → Diagnostik. Jika Anda mengaktifkan sinkronisasi iCloud, catatan shalat dan preferensi Anda juga berpindah lewat **iCloud Anda sendiri** ke Mac lain — bukan lewat server kami. Fitur ini nonaktif sampai Anda menyalakannya.
 
 Untuk menampilkan nama kota alih-alih koordinat mentah, aplikasi membulatkan posisi Anda ke ~1,1 km lalu meminta namanya ke geocoder Apple. Mengirim koordinat yang sudah dibulatkan itu ke **OpenStreetMap Nominatim** — yang dibutuhkan bahasa Indonesia, Persia, dan Urdu agar namanya tertulis benar — **nonaktif secara bawaan** dan dapat diaktifkan di Pengaturan → Waktu Shalat → Lokasi. Saat mengetik nama kota di pemilih lokasi, hanya teks yang Anda ketik yang dikirim. Klip adzan Pro diunduh sesuai permintaan dari Internet Archive. Versi App Store diperbarui melalui App Store; versi langsung memeriksa pembaruannya sendiri.
 
