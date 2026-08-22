@@ -83,6 +83,9 @@ PrayerTimes Pro ships on two channels. Same app, same price — take whichever s
 - **Sunnah & Nawāfil** tracking alongside the five obligatory prayers
 - **Qibla compass** pointing to the Kaaba from wherever you are
 - **Adhan library** — a catalogue of recordings from 28 countries, with a separate adhan for Fajr, quiet hours, snooze defaults, and per-prayer announcements
+- **Bring your own muezzin** — use a recording you already love, give each prayer its own reciter, and trim it to begin where you want
+- **A prayer-times widget** for your desktop and Notification Centre
+- **iCloud sync** — your prayer log and preferences follow you between Macs, with an export and a year in review
 - **Settings that find themselves** — a sidebar window with search across every pane
 - **Locale-aware numerals** (Arabic-Indic, Extended Arabic-Indic, Western)
 - **5 languages**: English, العربية, Bahasa Indonesia, فارسی, اردو — with full RTL support

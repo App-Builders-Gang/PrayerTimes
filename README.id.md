@@ -83,6 +83,9 @@ PrayerTimes Pro hadir lewat dua kanal. Aplikasi yang sama dengan harga yang sama
 - **Sunnah & Nawafil** di samping lima shalat wajib
 - **Kompas kiblat** yang mengarah ke Ka'bah dari mana pun Anda berada
 - **Pustaka adzan** — koleksi rekaman dari 28 negara, dengan adzan terpisah untuk Subuh, jam senyap, setelan tunda, dan pengumuman per shalat
+- **Bawa muazin Anda sendiri** — pakai rekaman yang Anda sukai, beri setiap shalat muazinnya sendiri, dan pangkas awalnya sesuai keinginan
+- **Widget waktu shalat** untuk desktop dan Pusat Notifikasi
+- **Sinkronisasi iCloud** — catatan shalat dan preferensi Anda mengikuti antar-Mac, dengan ekspor dan tinjauan setahun
 - **Pengaturan yang mudah ditemukan** — jendela bersidebar dengan pencarian lintas panel
 - **Numeral sesuai lokal** (Arab-Indic, Arab-Indic Diperluas, Barat)
 - **5 bahasa**: English, العربية, Bahasa Indonesia, فارسی, اردو — dengan dukungan RTL penuh
