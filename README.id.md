@@ -21,6 +21,10 @@
 </p>
 
 <p align="center">
+    <a href="https://abd3lraouf.dev/download/prayertimes/macos"><strong>Unduh versi langsung →</strong></a>
+</p>
+
+<p align="center">
     <a href="https://abd3lraouf.dev/projects/prayertimes/">abd3lraouf.dev/projects/prayertimes/</a>
 </p>
 <!-- END abd3lraouf-studios:hero -->
@@ -54,11 +58,18 @@
 
 **Persyaratan:** macOS 14 (Sonoma) atau lebih baru · Apple Silicon & Intel
 
-PrayerTimes Pro didistribusikan secara eksklusif melalui Mac App Store.
+PrayerTimes Pro hadir lewat dua kanal. Aplikasi yang sama dengan harga yang sama — pilih yang paling cocok untuk Anda.
+
+**Mac App Store** — pembelian dan pembaruan ditangani Apple.
 
 <a href="https://apps.apple.com/eg/app/prayer-times-pro-menubar/id6763390896?mt=12">
     <img src="https://developer.apple.com/app-store/marketing/guidelines/images/badge-download-on-the-mac-app-store.svg" alt="Unduh di Mac App Store" height="48">
 </a>
+
+**Unduhan langsung** — sudah ditandatangani dan dinotarisasi, memperbarui dirinya sendiri, dan Pro dibuka dengan kunci lisensi yang menjadi milik Anda.
+
+- [Unduh berkas DMG terbaru](https://abd3lraouf.dev/download/prayertimes/macos)
+- Atau lewat Homebrew: `brew install --cask abd3lraouf-studios/tap/prayertimes`
 
 ## Fitur
 
@@ -80,15 +91,21 @@ PrayerTimes Pro didistribusikan secara eksklusif melalui Mac App Store.
 
 ## Gratis dan Pro
 
-PrayerTimes Pro gratis diunduh, dan inti aplikasinya tetap gratis selamanya: hitung mundur di menu bar, seluruh 26 metode perhitungan, penyesuaian per shalat, notifikasi dan peringatan layar penuh, kalender Hijriah beserta pengingat peristiwanya, mode Ramadan, kompas kiblat, langit beranimasi, serta tema terang dan gelap. Itu sudah aplikasi waktu shalat yang lengkap, dan tidak memungut biaya apa pun.
+PrayerTimes Pro gratis diunduh lewat kanal mana pun, dan inti aplikasinya tetap gratis selamanya: hitung mundur di menu bar, seluruh 26 metode perhitungan, penyesuaian per shalat, notifikasi, peringatan layar penuh, dan adzannya sendiri, kalender Hijriah beserta pengingat peristiwanya, mode Ramadan, kompas kiblat, menandai setiap shalat saat Anda menunaikannya, aksi Siri dan Pintasan, serta tema terang dan gelap. Itu sudah aplikasi waktu shalat yang lengkap, dan tidak memungut biaya apa pun.
 
-**Buka Pro sekali bayar seharga $4,99** menambahkan pustaka adzan lengkap — muazin tambahan, adzan Subuh terpisah, dan pengaturan volume — pengumuman lisan sebelum shalat, catatan shalat dengan rentetan dan pelacakan qada, busur lintasan matahari dan meriam Ramadan, pintasan Siri “Shalat Berikutnya”, serta lima warna aksen lainnya. Sekali bayar, tanpa langganan, tanpa akun.
+**Buka Pro sekali bayar seharga $4,99** menambahkan tiga hal:
+
+- **Langit yang hidup** — pemandangan beranimasi di balik hitung mundur, busur lintasan matahari sepanjang hari, meriam Ramadan, dan seluruh warna aksen.
+- **Seluruh muazin** — pustaka lengkap yang direkam di 28 negara, adzan Subuh terpisah, dan suara pengumuman lisan sebelum shalat.
+- **Rentetan dan qada** — kalender rentetan beserta catatannya, daftar sunnah, dan buku qada.
+
+Sekali bayar, tanpa langganan, tanpa akun. Dibeli di App Store, ia melekat pada Akun Apple Anda; dibeli untuk versi langsung, ia melekat pada kunci lisensi Anda.
 
 ## Privasi
 
 Tanpa iklan, tanpa akun, dan tanpa apa pun yang melacak Anda lintas aplikasi atau web. Waktu salat dihitung sepenuhnya di Mac Anda, dan lokasi **presisi** Anda tidak pernah dikirim. Yang benar-benar dikirim: hitungan penggunaan anonim — tidak pernah lokasi Anda atau catatan salat Anda, dan semuanya dapat dimatikan dengan satu ketukan di Pengaturan → Umum → Diagnostik.
 
-Untuk menampilkan nama kota alih-alih koordinat mentah, aplikasi membulatkan posisi Anda ke ~1,1 km lalu meminta namanya ke geocoder Apple. Mengirim koordinat yang sudah dibulatkan itu ke **OpenStreetMap Nominatim** — yang dibutuhkan bahasa Indonesia, Persia, dan Urdu agar namanya tertulis benar — **nonaktif secara bawaan** dan dapat diaktifkan di Pengaturan → Waktu Shalat → Lokasi. Saat mengetik nama kota di pemilih lokasi, hanya teks yang Anda ketik yang dikirim. Klip adzan Pro diunduh sesuai permintaan dari Internet Archive. Pembaruan dikirimkan secara eksklusif melalui App Store.
+Untuk menampilkan nama kota alih-alih koordinat mentah, aplikasi membulatkan posisi Anda ke ~1,1 km lalu meminta namanya ke geocoder Apple. Mengirim koordinat yang sudah dibulatkan itu ke **OpenStreetMap Nominatim** — yang dibutuhkan bahasa Indonesia, Persia, dan Urdu agar namanya tertulis benar — **nonaktif secara bawaan** dan dapat diaktifkan di Pengaturan → Waktu Shalat → Lokasi. Saat mengetik nama kota di pemilih lokasi, hanya teks yang Anda ketik yang dikirim. Klip adzan Pro diunduh sesuai permintaan dari Internet Archive. Versi App Store diperbarui melalui App Store; versi langsung memeriksa pembaruannya sendiri.
 
 ## Yang bisa Anda lakukan di sini
 
@@ -121,4 +138,4 @@ Dibangun di atas proyek-proyek hebat ini:
 
 ## Lisensi
 
-PrayerTimes Pro **bersifat tertutup (closed source)**. Repositori ini hanya menampung issue, diskusi, dan materi pers. Aplikasi didistribusikan dengan Perjanjian Lisensi Pengguna Akhir-nya sendiri — lihat [daftar Mac App Store](https://apps.apple.com/eg/app/prayer-times-pro-menubar/id6763390896?mt=12).
+PrayerTimes Pro **bersifat tertutup (closed source)**. Repositori ini hanya menampung issue, diskusi, dan materi pers. Aplikasi didistribusikan dengan Perjanjian Lisensi Pengguna Akhir-nya sendiri — lihat [daftar Mac App Store](https://apps.apple.com/eg/app/prayer-times-pro-menubar/id6763390896?mt=12) atau [halaman produk](https://abd3lraouf.dev/projects/prayertimes/).

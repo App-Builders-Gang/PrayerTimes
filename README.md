@@ -21,6 +21,10 @@
 </p>
 
 <p align="center">
+    <a href="https://abd3lraouf.dev/download/prayertimes/macos"><strong>Download the direct build →</strong></a>
+</p>
+
+<p align="center">
     <a href="https://abd3lraouf.dev/projects/prayertimes/">abd3lraouf.dev/projects/prayertimes/</a>
 </p>
 <!-- END abd3lraouf-studios:hero -->
@@ -54,11 +58,18 @@
 
 **Requirements:** macOS 14 (Sonoma) or later · Apple Silicon & Intel
 
-PrayerTimes Pro is distributed exclusively through the Mac App Store.
+PrayerTimes Pro ships on two channels. Same app, same price — take whichever suits you.
+
+**Mac App Store** — Apple handles the purchase and the updates.
 
 <a href="https://apps.apple.com/eg/app/prayer-times-pro-menubar/id6763390896?mt=12">
     <img src="https://developer.apple.com/app-store/marketing/guidelines/images/badge-download-on-the-mac-app-store.svg" alt="Download on the Mac App Store" height="48">
 </a>
+
+**Direct download** — signed and notarized, updates itself, and Pro unlocks with a licence key that is yours to keep.
+
+- [Download the latest DMG](https://abd3lraouf.dev/download/prayertimes/macos)
+- Or with Homebrew: `brew install --cask abd3lraouf-studios/tap/prayertimes`
 
 ## Features
 
@@ -80,15 +91,21 @@ PrayerTimes Pro is distributed exclusively through the Mac App Store.
 
 ## Free and Pro
 
-PrayerTimes Pro is free to download, and the heart of it stays free for good: the menu bar countdown, every one of the 26 calculation methods, per-prayer adjustments, notifications and full-screen alerts, the Hijri calendar and its event reminders, Ramadan mode, the Qibla compass, the animated sky, and both light and dark themes. That is a complete prayer times app, and it costs nothing.
+PrayerTimes Pro is free to download on either channel, and the heart of it stays free for good: the menu bar countdown, every one of the 26 calculation methods, per-prayer adjustments, notifications, full-screen alerts and the adhan itself, the Hijri calendar and its event reminders, Ramadan mode, the Qibla compass, marking each prayer as you pray it, the Siri and Shortcuts action, and both light and dark themes. That is a complete prayer times app, and it costs nothing.
 
-A **$4.99 one-time Pro unlock** adds the full adhan library — extra reciters, a separate Fajr call and volume control — spoken pre-prayer announcements, the prayer log with streaks and qada tracking, the sun-path arc and the Ramadan cannon, the Siri “Next Prayer” shortcut, and five further accent colours. One payment, no subscription, no account.
+A **$4.99 one-time Pro unlock** adds three things:
+
+- **The living sky** — an animated scene behind the countdown, the sun’s path across the day, the Ramadan cannon, and every accent colour.
+- **Every adhan reciter** — the full library recorded across 28 countries, a separate call for Fajr, and the spoken pre-prayer announcement voice.
+- **Streaks and qada** — the streak calendar and your records, the Sunnah checklist, and the make-up ledger.
+
+One payment, no subscription, no account. Bought on the App Store it stays with your Apple Account; bought for the direct build it stays with your licence key.
 
 ## Privacy
 
 No advertising, no accounts, and nothing that tracks you across apps or the web. Prayer times are calculated entirely on your Mac, and your **precise** location is never transmitted. What does leave the Mac: anonymous usage counts — never your location or your prayer log, and all of it off in one tap under Settings → General → Diagnostics.
 
-To show a city name rather than raw coordinates, the app rounds your position to ~1.1 km and asks Apple's geocoder for a name. Sending that coarsened coordinate to **OpenStreetMap Nominatim** instead — which Indonesian, Persian and Urdu need for a correctly-written name — is **off by default** and opt-in under Settings → Prayer Times → Location. Typing a city into the location picker sends the text you typed. Pro adhan clips download on demand from the Internet Archive. Updates are delivered exclusively through the App Store.
+To show a city name rather than raw coordinates, the app rounds your position to ~1.1 km and asks Apple's geocoder for a name. Sending that coarsened coordinate to **OpenStreetMap Nominatim** instead — which Indonesian, Persian and Urdu need for a correctly-written name — is **off by default** and opt-in under Settings → Prayer Times → Location. Typing a city into the location picker sends the text you typed. Pro adhan clips download on demand from the Internet Archive. App Store builds are updated through the App Store; the direct build checks for its own updates.
 
 ## What you can do here
 
@@ -113,7 +130,7 @@ Every contribution — no matter how small — helps keep the app actively devel
 <!-- BEGIN abd3lraouf-studios:press -->
 ## Press & marketing assets
 
-PrayerTimes Pro keeps accurate prayer times a glance away in the macOS menu bar, with twenty-six calculation methods, five languages and a prayer log, computed on the Mac itself. Free on the Mac App Store, with a $4.99 one-time Pro unlock.
+PrayerTimes Pro keeps accurate prayer times a glance away in the macOS menu bar, with twenty-six calculation methods, five languages and a prayer log, computed on the Mac itself. It is free on the Mac App Store and as a direct download, and a $4.99 one-time Pro unlock adds the living sky, every adhan reciter, and streaks and qada.
 
 **Naming.** Written "PrayerTimes Pro" — one word for the product name, capital P and T, with "Pro" as a separate word. Never "Prayer Times" or "Prayertimes".
 
@@ -132,4 +149,4 @@ Built on top of these excellent projects:
 
 ## License
 
-PrayerTimes Pro is **closed source**. This repository hosts issues, discussions, and press assets only. The application is distributed under its own End User License Agreement — see the [Mac App Store listing](https://apps.apple.com/eg/app/prayer-times-pro-menubar/id6763390896?mt=12).
+PrayerTimes Pro is **closed source**. This repository hosts issues, discussions, and press assets only. The application is distributed under its own End User License Agreement — see the [Mac App Store listing](https://apps.apple.com/eg/app/prayer-times-pro-menubar/id6763390896?mt=12) or the [product page](https://abd3lraouf.dev/projects/prayertimes/).
