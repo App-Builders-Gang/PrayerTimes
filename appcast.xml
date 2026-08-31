@@ -49,6 +49,21 @@
       length="21845972"
       type="application/octet-stream" />
   </item>
+    <item>
+    <title>Version 4.0.2</title>
+    <sparkle:version>71</sparkle:version>
+    <sparkle:shortVersionString>4.0.2</sparkle:shortVersionString>
+    <sparkle:minimumSystemVersion>11.0</sparkle:minimumSystemVersion>
+    <pubDate>Mon, 31 Aug 2026 13:29:00 +0000</pubDate>
+    <description><![CDATA[<ul><li>4.0.2 — the keychain fix ships on both channels (da8ed313)</li><li>CI could be stopped by a keychain dialog nobody was there to answer (7d4f377a)</li><li>The privacy step failed the release it was written not to fail (216b87cb)</li></ul>]]></description>
+    <enclosure url="https://github.com/abd3lraouf-studios/PrayerTimes/releases/download/v4.0.2/PrayerTimes-4.0.2.zip"
+      sparkle:version="71"
+      sparkle:shortVersionString="4.0.2"
+      sparkle:edSignature="b1nJihieYFWfmYpS0lI1KXguSjwScjY8IoeYcWkC6xTKnk15WxqkmzlTNbkZuiQCjjeqjJ5e1Ic3Y1FuQ/c1Aw=="
+      length="21848578"
+      type="application/octet-stream" />
+  </item>
+
 
 
 
