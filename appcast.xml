@@ -35,6 +35,21 @@
       length="21821740"
       type="application/octet-stream" />
   </item>
+    <item>
+    <title>Version 4.0.1</title>
+    <sparkle:version>70</sparkle:version>
+    <sparkle:shortVersionString>4.0.1</sparkle:shortVersionString>
+    <sparkle:minimumSystemVersion>11.0</sparkle:minimumSystemVersion>
+    <pubDate>Mon, 31 Aug 2026 06:48:40 +0000</pubDate>
+    <description><![CDATA[<ul><li>4.0.1 — the paywall waits for the store before it quotes a price (021e700a)</li><li>Four things this file claimed were not true (b7e02370)</li><li>The paywall showed a price it could not honour (9cf3bc9e)</li><li>The privacy session reaches the runner intact and fastlane rejects it anyway (878a81be)</li><li>Measure what the runner actually receives for the privacy session (edac050e)</li><li>The privacy session survived as a local env var and not as a secret (5e77aed5)</li><li>The upload_privacy_details lane could never have run (9eb1d552)</li><li>The studio could not be supported from inside the app (670d8867)</li><li>The Indonesian subtitle said "di Mac" and 5.2.5 reads that as branding (a8534a89)</li><li>A missing login keychain read as a missing secret (85eb8e5a)</li><li>App Store notes declared crash reports the App Store build cannot send (531697d3)</li><li>App Review notes pointed the reviewer at a screen that moved (f3e74689)</li><li>Promotional text claimed the prayer log stays on the Mac (6bfae13d)</li><li>fastlane/metadata was the copy that would have won (21bf4309)</li></ul>]]></description>
+    <enclosure url="https://github.com/abd3lraouf-studios/PrayerTimes/releases/download/v4.0.1/PrayerTimes-4.0.1.zip"
+      sparkle:version="70"
+      sparkle:shortVersionString="4.0.1"
+      sparkle:edSignature="D5BSNCFHv+MvNqVyHyhCE1pvJ9I2ROePWpKbKybSvOFoJZt0ENLmXXtc6ZYyV4K+/Dm9Cr/GmUfrJn0cfdJ7Ag=="
+      length="21845972"
+      type="application/octet-stream" />
+  </item>
+
 
 
 
