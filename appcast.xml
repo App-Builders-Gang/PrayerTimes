@@ -77,6 +77,21 @@
       length="22007889"
       type="application/octet-stream" />
   </item>
+    <item>
+    <title>Version 4.2.0</title>
+    <sparkle:version>79</sparkle:version>
+    <sparkle:shortVersionString>4.2.0</sparkle:shortVersionString>
+    <sparkle:minimumSystemVersion>11.0</sparkle:minimumSystemVersion>
+    <pubDate>Tue, 01 Sep 2026 22:18:33 +0000</pubDate>
+    <description><![CDATA[<ul><li><strong>A real moon.</strong> The night scenes draw tonight's astronomical phase (TinyMoon) instead of a cosine of the Hijri day, tipped by the observer's latitude and hour so the crescent leans at Makkah, smiles at the equator and mirrors in the south; a painted four-face surface sheet replaces the gradient blobs, and the terminator fades along its true ellipse</li><li>Tonight's phase glyph beside the Hijri date on Home; a Moon Phase card in the Hijri calendar with the illuminated fraction and the days to the next new or full moon, in all five languages</li><li>The Salawat reminder's default interval is 10 minutes (was 20) on a fresh install</li><li>About › Email reaches support@abd3lraouf.dev</li><li>Screens and actions are instrumented (`AppTelemetry`): one `Screen.viewed` event per surface, settings changes by key only, prayer marks by source — honouring the Diagnostics opt-out, with a test that every declared screen is reached from app code</li><li>Two bugs that made the analytics look empty: the injection-library check matched `ArgumentParserInternal` on the substring `gum` and marked paying customers as instrumented; and every Debug launch overwrote the installed app's session record so no abnormal exit was ever reported — the record is now per bundle path</li></ul>]]></description>
+    <enclosure url="https://github.com/abd3lraouf-studios/PrayerTimes/releases/download/v4.2.0/PrayerTimes-4.2.0.zip"
+      sparkle:version="79"
+      sparkle:shortVersionString="4.2.0"
+      sparkle:edSignature="MPqEn1oLvilLvnZX/areGPFOjKauIyg1fzFqEkrUbPTJgzQjNShGAhMJj3kEww/DxJoWttt2eJXPtySyAr2YAA=="
+      length="22211301"
+      type="application/octet-stream" />
+  </item>
+
 
 
 
