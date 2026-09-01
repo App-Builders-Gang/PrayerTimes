@@ -63,6 +63,21 @@
       length="21848578"
       type="application/octet-stream" />
   </item>
+    <item>
+    <title>Version 4.1.0</title>
+    <sparkle:version>74</sparkle:version>
+    <sparkle:shortVersionString>4.1.0</sparkle:shortVersionString>
+    <sparkle:minimumSystemVersion>11.0</sparkle:minimumSystemVersion>
+    <pubDate>Tue, 01 Sep 2026 05:14:23 +0000</pubDate>
+    <description><![CDATA[<ul><li><strong>Hero Size.</strong> Three hand-laid tiers of the Home hero — large, medium, compact — under Settings › Appearance › Popover, previewed live in the popover while Settings is open</li><li>Isha's window closes at the first third of the night rather than at Fajr; the check-in, the make-up ledger and the timeline all read the same boundary</li><li>Every screen of the popover scrolls instead of cropping, not only Streak</li><li>The Day Complete celebration rains confetti — strips, triangles, stars and diamonds, falling from the top edge</li><li>Plural notification bodies ("Prayer in 10 minutes", "Sunrise in 20 minutes") resolve the app's language rather than the registered default, and the window banner's countdown units are localized</li><li>The menu-bar title updates reliably under a fast tick (its subscriber throttles instead of debouncing)</li><li>Sessions are accounted for: a launch reports how the previous run ended — graceful, crashed or killed — to analytics on both channels, honouring the Diagnostics opt-out; the privacy manifest and App Store privacy details declare Crash Data</li><li>Debug builds gain a Notification Simulator window that checks authorization, alert style and sound before posting one of each notification the app sends</li></ul>]]></description>
+    <enclosure url="https://github.com/abd3lraouf-studios/PrayerTimes/releases/download/v4.1.0/PrayerTimes-4.1.0.zip"
+      sparkle:version="74"
+      sparkle:shortVersionString="4.1.0"
+      sparkle:edSignature="9N+7O69swLpYZZ6Qq+8C5WcFXX7Dz+v2M7kUY0+WQPGCvLotQuFiPRudh56u566PowA18WCTDvSk9x7Y7wqADQ=="
+      length="22007889"
+      type="application/octet-stream" />
+  </item>
+
 
 
 
